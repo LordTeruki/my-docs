@@ -1,0 +1,7 @@
+site_name: Computus Documentation
+site_url: https://docs.computus.io/
+theme:
+  name: material
+
+nav:
+  - Home: index.md
