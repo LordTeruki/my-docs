@@ -12,29 +12,31 @@
         <meta name="author" content="Computus">
       
       
-        <link rel="canonical" href="https://docs.computus.io/">
+        <link rel="canonical" href="https://docs.computus.io/networking/routers/">
       
       
+        <link rel="prev" href="../subnets/">
       
-        <link rel="next" href="getting-started/what-is-computus-cloud/">
+      
+        <link rel="next" href="../floating-ips/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Computus Cloud Docs</title>
+        <title>Routers - Computus Cloud Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -79,11 +81,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#computus-cloud-docs" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -94,7 +91,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Computus Cloud Docs" class="md-header__button md-logo" aria-label="Computus Cloud Docs" data-md-component="logo">
+    <a href="../.." title="Computus Cloud Docs" class="md-header__button md-logo" aria-label="Computus Cloud Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Routers
             
           </span>
         </div>
@@ -209,11 +206,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -234,7 +229,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="getting-started/what-is-computus-cloud/" class="md-tabs__link">
+        <a href="../../getting-started/what-is-computus-cloud/" class="md-tabs__link">
           
   
   
@@ -254,7 +249,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="control-panel/accessing-the-portal/" class="md-tabs__link">
+        <a href="../../control-panel/accessing-the-portal/" class="md-tabs__link">
           
   
   
@@ -274,7 +269,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="compute/instances-overview/" class="md-tabs__link">
+        <a href="../../compute/instances-overview/" class="md-tabs__link">
           
   
   
@@ -290,11 +285,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="networking/networks-overview/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../networks-overview/" class="md-tabs__link">
           
   
   
@@ -314,7 +311,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="object-storage/object-storage-overview/" class="md-tabs__link">
+        <a href="../../object-storage/object-storage-overview/" class="md-tabs__link">
           
   
   
@@ -334,7 +331,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="identity-and-access/users/" class="md-tabs__link">
+        <a href="../../identity-and-access/users/" class="md-tabs__link">
           
   
   
@@ -354,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="billing/osie-billing-overview/" class="md-tabs__link">
+        <a href="../../billing/osie-billing-overview/" class="md-tabs__link">
           
   
   
@@ -374,7 +371,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="api-and-automation/openstack-api-overview/" class="md-tabs__link">
+        <a href="../../api-and-automation/openstack-api-overview/" class="md-tabs__link">
           
   
   
@@ -394,7 +391,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="platform-architecture/high-level-architecture/" class="md-tabs__link">
+        <a href="../../platform-architecture/high-level-architecture/" class="md-tabs__link">
           
   
   
@@ -414,7 +411,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="operations/admin-portal-access/" class="md-tabs__link">
+        <a href="../../operations/admin-portal-access/" class="md-tabs__link">
           
   
   
@@ -434,7 +431,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="security/shared-responsibility-model/" class="md-tabs__link">
+        <a href="../../security/shared-responsibility-model/" class="md-tabs__link">
           
   
   
@@ -454,7 +451,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="troubleshooting/cannot-log-in-to-cloud-computus-io/" class="md-tabs__link">
+        <a href="../../troubleshooting/cannot-log-in-to-cloud-computus-io/" class="md-tabs__link">
           
   
   
@@ -474,7 +471,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="reference/endpoint-reference/" class="md-tabs__link">
+        <a href="../../reference/endpoint-reference/" class="md-tabs__link">
           
   
   
@@ -508,7 +505,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Computus Cloud Docs" class="md-nav__button md-logo" aria-label="Computus Cloud Docs" data-md-component="logo">
+    <a href="../.." title="Computus Cloud Docs" class="md-nav__button md-logo" aria-label="Computus Cloud Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -523,37 +520,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -569,181 +539,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#public-endpoints" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Public Endpoints
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Public Endpoints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cloud-portal" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Portal
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#s3-api" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        S3 API
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#platform-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Platform Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-services" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core Services
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recommended-first-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recommended First Steps
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-tasks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Tasks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Common Tasks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#access-the-portal" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Access the Portal
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#create-a-virtual-machine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Create a Virtual Machine
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configure-networking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configure Networking
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#use-object-storage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Use Object Storage
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#connect-with-aws-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connect with AWS CLI
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#high-level-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        High-Level Architecture
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -809,7 +604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/what-is-computus-cloud/" class="md-nav__link">
+      <a href="../../getting-started/what-is-computus-cloud/" class="md-nav__link">
         
   
   
@@ -837,7 +632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/platform-overview/" class="md-nav__link">
+      <a href="../../getting-started/platform-overview/" class="md-nav__link">
         
   
   
@@ -865,7 +660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/regions-and-availability/" class="md-nav__link">
+      <a href="../../getting-started/regions-and-availability/" class="md-nav__link">
         
   
   
@@ -893,7 +688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/account-signup/" class="md-nav__link">
+      <a href="../../getting-started/account-signup/" class="md-nav__link">
         
   
   
@@ -921,7 +716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/email-verification/" class="md-nav__link">
+      <a href="../../getting-started/email-verification/" class="md-nav__link">
         
   
   
@@ -949,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/first-login/" class="md-nav__link">
+      <a href="../../getting-started/first-login/" class="md-nav__link">
         
   
   
@@ -1038,7 +833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control-panel/accessing-the-portal/" class="md-nav__link">
+      <a href="../../control-panel/accessing-the-portal/" class="md-nav__link">
         
   
   
@@ -1066,7 +861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control-panel/dashboard-overview/" class="md-nav__link">
+      <a href="../../control-panel/dashboard-overview/" class="md-nav__link">
         
   
   
@@ -1094,7 +889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control-panel/projects-and-tenants/" class="md-nav__link">
+      <a href="../../control-panel/projects-and-tenants/" class="md-nav__link">
         
   
   
@@ -1122,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control-panel/billing-overview/" class="md-nav__link">
+      <a href="../../control-panel/billing-overview/" class="md-nav__link">
         
   
   
@@ -1150,7 +945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control-panel/api-keys/" class="md-nav__link">
+      <a href="../../control-panel/api-keys/" class="md-nav__link">
         
   
   
@@ -1178,7 +973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control-panel/support-requests/" class="md-nav__link">
+      <a href="../../control-panel/support-requests/" class="md-nav__link">
         
   
   
@@ -1267,7 +1062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/instances-overview/" class="md-nav__link">
+      <a href="../../compute/instances-overview/" class="md-nav__link">
         
   
   
@@ -1295,7 +1090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/creating-a-vm/" class="md-nav__link">
+      <a href="../../compute/creating-a-vm/" class="md-nav__link">
         
   
   
@@ -1323,7 +1118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/flavors/" class="md-nav__link">
+      <a href="../../compute/flavors/" class="md-nav__link">
         
   
   
@@ -1351,7 +1146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/images/" class="md-nav__link">
+      <a href="../../compute/images/" class="md-nav__link">
         
   
   
@@ -1379,7 +1174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/ssh-keys/" class="md-nav__link">
+      <a href="../../compute/ssh-keys/" class="md-nav__link">
         
   
   
@@ -1407,7 +1202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/floating-ips/" class="md-nav__link">
+      <a href="../../compute/floating-ips/" class="md-nav__link">
         
   
   
@@ -1435,7 +1230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/reboot-stop-resize/" class="md-nav__link">
+      <a href="../../compute/reboot-stop-resize/" class="md-nav__link">
         
   
   
@@ -1463,7 +1258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/troubleshooting-vm-provisioning/" class="md-nav__link">
+      <a href="../../compute/troubleshooting-vm-provisioning/" class="md-nav__link">
         
   
   
@@ -1495,28 +1290,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   
@@ -1534,7 +1332,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1552,7 +1350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="networking/networks-overview/" class="md-nav__link">
+      <a href="../networks-overview/" class="md-nav__link">
         
   
   
@@ -1580,7 +1378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="networking/private-networks/" class="md-nav__link">
+      <a href="../private-networks/" class="md-nav__link">
         
   
   
@@ -1608,7 +1406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="networking/subnets/" class="md-nav__link">
+      <a href="../subnets/" class="md-nav__link">
         
   
   
@@ -1633,10 +1431,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="networking/routers/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1652,6 +1457,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1664,7 +1470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="networking/floating-ips/" class="md-nav__link">
+      <a href="../floating-ips/" class="md-nav__link">
         
   
   
@@ -1692,7 +1498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="networking/security-groups/" class="md-nav__link">
+      <a href="../security-groups/" class="md-nav__link">
         
   
   
@@ -1720,7 +1526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="networking/common-networking-issues/" class="md-nav__link">
+      <a href="../common-networking-issues/" class="md-nav__link">
         
   
   
@@ -1809,7 +1615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/object-storage-overview/" class="md-nav__link">
+      <a href="../../object-storage/object-storage-overview/" class="md-nav__link">
         
   
   
@@ -1837,7 +1643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/s3-endpoint/" class="md-nav__link">
+      <a href="../../object-storage/s3-endpoint/" class="md-nav__link">
         
   
   
@@ -1865,7 +1671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/creating-buckets/" class="md-nav__link">
+      <a href="../../object-storage/creating-buckets/" class="md-nav__link">
         
   
   
@@ -1893,7 +1699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/access-keys-and-secret-keys/" class="md-nav__link">
+      <a href="../../object-storage/access-keys-and-secret-keys/" class="md-nav__link">
         
   
   
@@ -1921,7 +1727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/using-aws-cli/" class="md-nav__link">
+      <a href="../../object-storage/using-aws-cli/" class="md-nav__link">
         
   
   
@@ -1949,7 +1755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/using-s3-browser-and-cyberduck/" class="md-nav__link">
+      <a href="../../object-storage/using-s3-browser-and-cyberduck/" class="md-nav__link">
         
   
   
@@ -1977,7 +1783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/bucket-policies/" class="md-nav__link">
+      <a href="../../object-storage/bucket-policies/" class="md-nav__link">
         
   
   
@@ -2005,7 +1811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/cors-configuration/" class="md-nav__link">
+      <a href="../../object-storage/cors-configuration/" class="md-nav__link">
         
   
   
@@ -2033,7 +1839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="object-storage/troubleshooting-s3-access/" class="md-nav__link">
+      <a href="../../object-storage/troubleshooting-s3-access/" class="md-nav__link">
         
   
   
@@ -2122,7 +1928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity-and-access/users/" class="md-nav__link">
+      <a href="../../identity-and-access/users/" class="md-nav__link">
         
   
   
@@ -2150,7 +1956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity-and-access/roles/" class="md-nav__link">
+      <a href="../../identity-and-access/roles/" class="md-nav__link">
         
   
   
@@ -2178,7 +1984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity-and-access/projects/" class="md-nav__link">
+      <a href="../../identity-and-access/projects/" class="md-nav__link">
         
   
   
@@ -2206,7 +2012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity-and-access/password-resets/" class="md-nav__link">
+      <a href="../../identity-and-access/password-resets/" class="md-nav__link">
         
   
   
@@ -2234,7 +2040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity-and-access/mfa-future/" class="md-nav__link">
+      <a href="../../identity-and-access/mfa-future/" class="md-nav__link">
         
   
   
@@ -2262,7 +2068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity-and-access/email-confirmation-flow/" class="md-nav__link">
+      <a href="../../identity-and-access/email-confirmation-flow/" class="md-nav__link">
         
   
   
@@ -2351,7 +2157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/osie-billing-overview/" class="md-nav__link">
+      <a href="../../billing/osie-billing-overview/" class="md-nav__link">
         
   
   
@@ -2379,7 +2185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/plans-and-pricing/" class="md-nav__link">
+      <a href="../../billing/plans-and-pricing/" class="md-nav__link">
         
   
   
@@ -2407,7 +2213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/usage-metering/" class="md-nav__link">
+      <a href="../../billing/usage-metering/" class="md-nav__link">
         
   
   
@@ -2435,7 +2241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/invoices/" class="md-nav__link">
+      <a href="../../billing/invoices/" class="md-nav__link">
         
   
   
@@ -2463,7 +2269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/payment-methods/" class="md-nav__link">
+      <a href="../../billing/payment-methods/" class="md-nav__link">
         
   
   
@@ -2491,7 +2297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/account-credits/" class="md-nav__link">
+      <a href="../../billing/account-credits/" class="md-nav__link">
         
   
   
@@ -2519,7 +2325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="billing/failed-payments/" class="md-nav__link">
+      <a href="../../billing/failed-payments/" class="md-nav__link">
         
   
   
@@ -2608,7 +2414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-and-automation/openstack-api-overview/" class="md-nav__link">
+      <a href="../../api-and-automation/openstack-api-overview/" class="md-nav__link">
         
   
   
@@ -2636,7 +2442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-and-automation/s3-api-overview/" class="md-nav__link">
+      <a href="../../api-and-automation/s3-api-overview/" class="md-nav__link">
         
   
   
@@ -2664,7 +2470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-and-automation/authentication/" class="md-nav__link">
+      <a href="../../api-and-automation/authentication/" class="md-nav__link">
         
   
   
@@ -2692,7 +2498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-and-automation/example-cli-commands/" class="md-nav__link">
+      <a href="../../api-and-automation/example-cli-commands/" class="md-nav__link">
         
   
   
@@ -2720,7 +2526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-and-automation/terraform-future/" class="md-nav__link">
+      <a href="../../api-and-automation/terraform-future/" class="md-nav__link">
         
   
   
@@ -2748,7 +2554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-and-automation/sdk-examples/" class="md-nav__link">
+      <a href="../../api-and-automation/sdk-examples/" class="md-nav__link">
         
   
   
@@ -2837,7 +2643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="platform-architecture/high-level-architecture/" class="md-nav__link">
+      <a href="../../platform-architecture/high-level-architecture/" class="md-nav__link">
         
   
   
@@ -2865,7 +2671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="platform-architecture/openstack-services/" class="md-nav__link">
+      <a href="../../platform-architecture/openstack-services/" class="md-nav__link">
         
   
   
@@ -2893,7 +2699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="platform-architecture/osie-integration/" class="md-nav__link">
+      <a href="../../platform-architecture/osie-integration/" class="md-nav__link">
         
   
   
@@ -2921,7 +2727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="platform-architecture/swift-and-s3-compatibility/" class="md-nav__link">
+      <a href="../../platform-architecture/swift-and-s3-compatibility/" class="md-nav__link">
         
   
   
@@ -2949,7 +2755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="platform-architecture/dns-and-endpoints/" class="md-nav__link">
+      <a href="../../platform-architecture/dns-and-endpoints/" class="md-nav__link">
         
   
   
@@ -2977,7 +2783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="platform-architecture/known-limitations/" class="md-nav__link">
+      <a href="../../platform-architecture/known-limitations/" class="md-nav__link">
         
   
   
@@ -3066,7 +2872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/admin-portal-access/" class="md-nav__link">
+      <a href="../../operations/admin-portal-access/" class="md-nav__link">
         
   
   
@@ -3094,7 +2900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/tenant-provisioning-flow/" class="md-nav__link">
+      <a href="../../operations/tenant-provisioning-flow/" class="md-nav__link">
         
   
   
@@ -3122,7 +2928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/router-creation-model/" class="md-nav__link">
+      <a href="../../operations/router-creation-model/" class="md-nav__link">
         
   
   
@@ -3150,7 +2956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/quotas/" class="md-nav__link">
+      <a href="../../operations/quotas/" class="md-nav__link">
         
   
   
@@ -3178,7 +2984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/monitoring-and-alerts/" class="md-nav__link">
+      <a href="../../operations/monitoring-and-alerts/" class="md-nav__link">
         
   
   
@@ -3206,7 +3012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/backup-strategy/" class="md-nav__link">
+      <a href="../../operations/backup-strategy/" class="md-nav__link">
         
   
   
@@ -3234,7 +3040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="operations/maintenance-windows/" class="md-nav__link">
+      <a href="../../operations/maintenance-windows/" class="md-nav__link">
         
   
   
@@ -3323,7 +3129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/shared-responsibility-model/" class="md-nav__link">
+      <a href="../../security/shared-responsibility-model/" class="md-nav__link">
         
   
   
@@ -3351,7 +3157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/network-isolation/" class="md-nav__link">
+      <a href="../../security/network-isolation/" class="md-nav__link">
         
   
   
@@ -3379,7 +3185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/api-credential-handling/" class="md-nav__link">
+      <a href="../../security/api-credential-handling/" class="md-nav__link">
         
   
   
@@ -3407,7 +3213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/tls-and-https/" class="md-nav__link">
+      <a href="../../security/tls-and-https/" class="md-nav__link">
         
   
   
@@ -3435,7 +3241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/logging-and-audit/" class="md-nav__link">
+      <a href="../../security/logging-and-audit/" class="md-nav__link">
         
   
   
@@ -3463,7 +3269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/abuse-reporting/" class="md-nav__link">
+      <a href="../../security/abuse-reporting/" class="md-nav__link">
         
   
   
@@ -3552,7 +3358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/cannot-log-in-to-cloud-computus-io/" class="md-nav__link">
+      <a href="../../troubleshooting/cannot-log-in-to-cloud-computus-io/" class="md-nav__link">
         
   
   
@@ -3580,7 +3386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/email-verification-not-arriving/" class="md-nav__link">
+      <a href="../../troubleshooting/email-verification-not-arriving/" class="md-nav__link">
         
   
   
@@ -3608,7 +3414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/vm-build-failed/" class="md-nav__link">
+      <a href="../../troubleshooting/vm-build-failed/" class="md-nav__link">
         
   
   
@@ -3636,7 +3442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/floating-ip-not-working/" class="md-nav__link">
+      <a href="../../troubleshooting/floating-ip-not-working/" class="md-nav__link">
         
   
   
@@ -3664,7 +3470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/s3-signaturedoesnotmatch/" class="md-nav__link">
+      <a href="../../troubleshooting/s3-signaturedoesnotmatch/" class="md-nav__link">
         
   
   
@@ -3692,7 +3498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/bucket-access-denied/" class="md-nav__link">
+      <a href="../../troubleshooting/bucket-access-denied/" class="md-nav__link">
         
   
   
@@ -3720,7 +3526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/dashboard-and-api-mismatch/" class="md-nav__link">
+      <a href="../../troubleshooting/dashboard-and-api-mismatch/" class="md-nav__link">
         
   
   
@@ -3809,7 +3615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/endpoint-reference/" class="md-nav__link">
+      <a href="../../reference/endpoint-reference/" class="md-nav__link">
         
   
   
@@ -3837,7 +3643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/port-and-service-map/" class="md-nav__link">
+      <a href="../../reference/port-and-service-map/" class="md-nav__link">
         
   
   
@@ -3865,7 +3671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/glossary/" class="md-nav__link">
+      <a href="../../reference/glossary/" class="md-nav__link">
         
   
   
@@ -3893,7 +3699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/faq/" class="md-nav__link">
+      <a href="../../reference/faq/" class="md-nav__link">
         
   
   
@@ -3921,7 +3727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/support-contact/" class="md-nav__link">
+      <a href="../../reference/support-contact/" class="md-nav__link">
         
   
   
@@ -3966,171 +3772,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#public-endpoints" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Public Endpoints
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Public Endpoints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cloud-portal" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Portal
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#s3-api" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        S3 API
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#platform-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Platform Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-services" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core Services
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recommended-first-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recommended First Steps
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-tasks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Tasks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Common Tasks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#access-the-portal" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Access the Portal
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#create-a-virtual-machine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Create a Virtual Machine
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configure-networking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configure Networking
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#use-object-storage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Use Object Storage
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#connect-with-aws-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connect with AWS CLI
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#high-level-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        High-Level Architecture
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -4147,86 +3788,9 @@
 
 
 
-<h1 id="computus-cloud-docs">Computus Cloud Docs<a class="headerlink" href="#computus-cloud-docs" title="Permanent link">&para;</a></h1>
-<p>Welcome to the documentation portal for <strong>Computus Cloud</strong>.</p>
-<p>Computus Cloud is an independent cloud platform built on <strong>OpenStack</strong>, with <strong>OSIE</strong> providing customer account, billing, and service workflows, and <strong>S3-compatible object storage</strong> exposed through a dedicated API endpoint.</p>
-<h2 id="public-endpoints">Public Endpoints<a class="headerlink" href="#public-endpoints" title="Permanent link">&para;</a></h2>
-<h3 id="cloud-portal">Cloud Portal<a class="headerlink" href="#cloud-portal" title="Permanent link">&para;</a></h3>
-<p><code>https://cloud.computus.io</code></p>
-<p>Use the cloud portal to:
-- register an account
-- verify your email
-- log in to the customer dashboard
-- manage billing
-- provision and manage services
-- view invoices and account status</p>
-<h3 id="s3-api">S3 API<a class="headerlink" href="#s3-api" title="Permanent link">&para;</a></h3>
-<p><code>https://s3.computus.io</code></p>
-<p>Use the S3 endpoint for:
-- bucket creation
-- object uploads and downloads
-- backup tools
-- AWS CLI compatible workflows
-- application integrations that support the Amazon S3 API</p>
-<h2 id="platform-overview">Platform Overview<a class="headerlink" href="#platform-overview" title="Permanent link">&para;</a></h2>
-<p>Computus Cloud is organized into two main customer-facing access points:</p>
-<ul>
-<li><strong><code>cloud.computus.io</code></strong> for the customer portal and OSIE-managed workflows</li>
-<li><strong><code>s3.computus.io</code></strong> for S3-compatible object storage access</li>
-</ul>
-<p>Behind the scenes, the platform is powered by OpenStack services including compute, networking, identity, image management, and object storage.</p>
-<h2 id="core-services">Core Services<a class="headerlink" href="#core-services" title="Permanent link">&para;</a></h2>
-<p>Computus Cloud is designed to provide:</p>
-<ul>
-<li>virtual machines</li>
-<li>private networking</li>
-<li>floating IPs</li>
-<li>project and tenant isolation</li>
-<li>S3-compatible object storage</li>
-<li>billing and account lifecycle management</li>
-</ul>
-<h2 id="recommended-first-steps">Recommended First Steps<a class="headerlink" href="#recommended-first-steps" title="Permanent link">&para;</a></h2>
-<p>If you are new to the platform, start here:</p>
-<ol>
-<li>Read <a href="getting-started/what-is-computus-cloud/">What is Computus Cloud?</a></li>
-<li>Review the <a href="getting-started/platform-overview/">Platform Overview</a></li>
-<li>Complete <a href="getting-started/account-signup/">Account Signup</a></li>
-<li>Confirm your email in <a href="getting-started/email-verification/">Email Verification</a></li>
-<li>Continue to <a href="getting-started/first-login/">First Login to cloud.computus.io</a></li>
-</ol>
-<h2 id="common-tasks">Common Tasks<a class="headerlink" href="#common-tasks" title="Permanent link">&para;</a></h2>
-<h3 id="access-the-portal">Access the Portal<a class="headerlink" href="#access-the-portal" title="Permanent link">&para;</a></h3>
-<p>Go to <a href="control-panel/accessing-the-portal/">Accessing the Portal</a></p>
-<h3 id="create-a-virtual-machine">Create a Virtual Machine<a class="headerlink" href="#create-a-virtual-machine" title="Permanent link">&para;</a></h3>
-<p>See <a href="compute/creating-a-vm/">Creating a VM</a></p>
-<h3 id="configure-networking">Configure Networking<a class="headerlink" href="#configure-networking" title="Permanent link">&para;</a></h3>
-<p>See <a href="networking/networks-overview/">Networks Overview</a></p>
-<h3 id="use-object-storage">Use Object Storage<a class="headerlink" href="#use-object-storage" title="Permanent link">&para;</a></h3>
-<p>Start with <a href="object-storage/object-storage-overview/">Object Storage Overview</a></p>
-<h3 id="connect-with-aws-cli">Connect with AWS CLI<a class="headerlink" href="#connect-with-aws-cli" title="Permanent link">&para;</a></h3>
-<p>See <a href="object-storage/using-aws-cli/">Using AWS CLI</a></p>
-<h2 id="high-level-architecture">High-Level Architecture<a class="headerlink" href="#high-level-architecture" title="Permanent link">&para;</a></h2>
-<p>```text
-[ Customer Browser / Client ]
-           |
-           v
-   cloud.computus.io
-      (OSIE Portal)
-           |
-           v
-      OSIE Backend
-           |
-           v
-     OpenStack APIs
-   ├── Keystone
-   ├── Nova
-   ├── Neutron
-   ├── Glance
-   └── Swift
-           |
-           v
-     s3.computus.io
-   (S3-Compatible API)</p>
+  <h1>Routers</h1>
+
+
 
 
 
@@ -4303,10 +3867,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "toc.follow"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
