@@ -97,7 +97,7 @@ nav:
 
   - Object Storage:
       - Object Storage Overview: object-storage/object-storage-overview.md
-      - S3 Endpoint: s3.computus.io: object-storage/s3-endpoint.md
+      - "S3 Endpoint: s3.computus.io": object-storage/s3-endpoint.md
       - Creating Buckets: object-storage/creating-buckets.md
       - Access Keys and Secret Keys: object-storage/access-keys-and-secret-keys.md
       - Using AWS CLI: object-storage/using-aws-cli.md
