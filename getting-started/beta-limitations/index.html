@@ -12,9 +12,13 @@
         <meta name="author" content="Computus">
       
       
-        <link rel="canonical" href="https://docs.computus.io/billing/payment-methods/">
+        <link rel="canonical" href="https://docs.computus.io/getting-started/beta-limitations/">
       
       
+        <link rel="prev" href="../platform-overview/">
+      
+      
+        <link rel="next" href="../account-signup/">
       
       
         
@@ -25,7 +29,7 @@
     
     
       
-        <title>Payment methods - Computus Cloud Beta Docs</title>
+        <title>Beta Limitations & Rules - Computus Cloud Beta Docs</title>
       
     
     
@@ -107,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Payment methods
+              Beta Limitations & Rules
             
           </span>
         </div>
@@ -221,11 +225,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../getting-started/what-is-computus-cloud/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../what-is-computus-cloud/" class="md-tabs__link">
           
   
   
@@ -441,28 +447,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -480,7 +489,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -498,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/what-is-computus-cloud/" class="md-nav__link">
+      <a href="../what-is-computus-cloud/" class="md-nav__link">
         
   
   
@@ -526,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/platform-overview/" class="md-nav__link">
+      <a href="../platform-overview/" class="md-nav__link">
         
   
   
@@ -551,10 +560,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../getting-started/beta-limitations.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -570,6 +586,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -582,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/account-signup/" class="md-nav__link">
+      <a href="../account-signup/" class="md-nav__link">
         
   
   
@@ -610,7 +627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/first-login/" class="md-nav__link">
+      <a href="../first-login.md" class="md-nav__link">
         
   
   
@@ -2078,9 +2095,28 @@
 
 
 
-  <h1>Payment methods</h1>
+  <h1>Beta Limitations & Rules</h1>
 
-
+<p># Beta Limitations \&amp; Rules</p>
+<p>**Please read this page carefully.** These limits are in place to ensure fair testing and to help us gather meaningful feedback.</p>
+<p>## Current Beta Limits</p>
+<p>| Resource              | Limit                  | Notes |</p>
+<p>|-----------------------|------------------------|-------|</p>
+<p>| **Virtual Machines**  | 2 VMs total per account | Cannot be increased during beta |</p>
+<p>| **VM Flavors**        | Tiny, Small, Medium only | Larger flavors not available yet |</p>
+<p>| **Operating Systems** | Ubuntu, Debian, Rocky Linux | Other images not available |</p>
+<p>| **Public Networking** | IPv6 only              | No public IPv4 addresses |</p>
+<p>| **Object Storage**    | **200 GB** total       | Hard limit across all buckets |</p>
+<p>| **Private Networks**  | Unlimited              | Create as many as you want |</p>
+<p>## Important Rules</p>
+<p>- All usage is metered and visible in the billing section</p>
+<p>- Do not attempt to bypass limits (e.g. creating more than 2 VMs)</p>
+<p>- Beta accounts may be paused or reset with short notice for maintenance</p>
+<p>- The platform is still under active development — expect occasional issues</p>
+<p>- Your feedback is highly valuable. Please report bugs and suggestions via the portal</p>
+<p>**Violating limits may result in account suspension during the beta period.**</p>
+<p>---</p>
+<p>**Next:** [Account Signup (Beta)](account-signup.md)</p>
 
 
 

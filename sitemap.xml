@@ -5,58 +5,6 @@
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/api-and-automation/authentication/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/api-and-automation/example-cli-commands/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/api-and-automation/openstack-api-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/api-and-automation/s3-api-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/api-and-automation/sdk-examples/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/api-and-automation/terraform-future/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/account-credits/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/failed-payments/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/invoices/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/osie-billing-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/payment-methods/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/plans-and-pricing/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/billing/usage-metering/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/compute/creating-a-vm/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
@@ -117,11 +65,11 @@
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/getting-started/email-verification/</loc>
+         <loc>https://docs.computus.io/getting-started/beta-limitations/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/getting-started/first-login/</loc>
+         <loc>https://docs.computus.io/getting-started/email-verification/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
@@ -129,35 +77,7 @@
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/getting-started/regions-and-availability/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/getting-started/what-is-computus-cloud/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/identity-and-access/email-confirmation-flow/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/identity-and-access/mfa-future/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/identity-and-access/password-resets/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/identity-and-access/projects/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/identity-and-access/roles/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/identity-and-access/users/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
@@ -225,34 +145,6 @@
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/operations/admin-portal-access/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/operations/backup-strategy/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/operations/maintenance-windows/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/operations/monitoring-and-alerts/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/operations/quotas/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/operations/router-creation-model/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/operations/tenant-provisioning-flow/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/platform-architecture/dns-and-endpoints/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
@@ -294,30 +186,6 @@
     </url>
     <url>
          <loc>https://docs.computus.io/reference/support-contact/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/security/abuse-reporting/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/security/api-credential-handling/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/security/logging-and-audit/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/security/network-isolation/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/security/shared-responsibility-model/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/security/tls-and-https/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
     <url>
