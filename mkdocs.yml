@@ -1,6 +1,6 @@
-site_name: Computus Cloud Docs
+site_name: Computus Cloud Beta Docs
 site_url: https://docs.computus.io/
-site_description: Documentation for the Computus Cloud platform powered by OpenStack, OSIE, and S3-compatible object storage.
+site_description: Official documentation for the Computus Cloud Beta — OpenStack + OSIE + S3-compatible storage (limited to beta testers)
 site_author: Computus
 
 theme:
@@ -48,11 +48,11 @@ plugins:
 extra:
   social:
     - icon: fontawesome/solid/globe
-      link: https://cloud.computus.io
-      name: Cloud Portal
+      link: https://beta.computus.io
+      name: Beta Portal
     - icon: fontawesome/solid/database
-      link: https://s3.computus.io
-      name: S3 API
+      link: https://s3.computus.io:8080
+      name: S3 API (Beta)
 
 extra_css:
   - stylesheets/extra.css
@@ -61,113 +61,57 @@ nav:
   - Home: index.md
 
   - Getting Started:
-      - What is Computus Cloud?: getting-started/what-is-computus-cloud.md
+      - What is Computus Cloud Beta?: getting-started/what-is-computus-cloud.md
       - Platform Overview: getting-started/platform-overview.md
-      - Regions and Availability: getting-started/regions-and-availability.md
-      - Account Signup: getting-started/account-signup.md
-      - Email Verification: getting-started/email-verification.md
-      - First Login to cloud.computus.io: getting-started/first-login.md
+      - Beta Limitations & Rules: getting-started/beta-limitations.md
+      - Account Signup (Beta): getting-started/account-signup.md
+      - First Login to beta.computus.io: getting-started/first-login.md
 
   - Control Panel:
       - Accessing the Portal: control-panel/accessing-the-portal.md
       - Dashboard Overview: control-panel/dashboard-overview.md
       - Projects and Tenants: control-panel/projects-and-tenants.md
       - Billing Overview: control-panel/billing-overview.md
-      - API Keys: control-panel/api-keys.md
-      - Support Requests: control-panel/support-requests.md
+      - API Keys & Credentials: control-panel/api-keys.md
+
+  - Object Storage (S3):
+      - S3 Overview (Beta): object-storage/object-storage-overview.md
+      - S3 Endpoint (s3.computus.io:8080): object-storage/s3-endpoint.md
+      - Creating Access & Secret Keys: object-storage/access-keys-and-secret-keys.md
+      - Creating Buckets: object-storage/creating-buckets.md
+      - Using AWS CLI: object-storage/using-aws-cli.md
+      - Using S3 Browser / Cyberduck: object-storage/using-s3-browser-and-cyberduck.md
+      - Bucket Policies & CORS: object-storage/bucket-policies.md
+      - Troubleshooting S3 Access: object-storage/troubleshooting-s3-access.md
 
   - Compute:
-      - Instances Overview: compute/instances-overview.md
-      - Creating a VM: compute/creating-a-vm.md
-      - Flavors: compute/flavors.md
-      - Images: compute/images.md
-      - SSH Keys: compute/ssh-keys.md
-      - Floating IPs: compute/floating-ips.md
+      - Instances Overview (Beta): compute/instances-overview.md
+      - Creating a VM (Beta): compute/creating-a-vm.md
+      - Available Flavors (Tiny/Small/Medium): compute/flavors.md
+      - Available Images (Ubuntu/Debian/Rocky): compute/images.md
+      - SSH Keys (Required): compute/ssh-keys.md
+      - IPv6 Access Only: compute/floating-ips.md
       - Reboot, Stop, Resize: compute/reboot-stop-resize.md
-      - Troubleshooting VM Provisioning: compute/troubleshooting-vm-provisioning.md
 
   - Networking:
       - Networks Overview: networking/networks-overview.md
-      - Private Networks: networking/private-networks.md
-      - Subnets: networking/subnets.md
-      - Routers: networking/routers.md
-      - Floating IPs: networking/floating-ips.md
+      - Private Networks & Experiments: networking/private-networks.md
+      - Subnets & Routers: networking/routers.md
       - Security Groups: networking/security-groups.md
       - Common Networking Issues: networking/common-networking-issues.md
 
-  - Object Storage:
-      - Object Storage Overview: object-storage/object-storage-overview.md
-      - "S3 Endpoint: s3.computus.io": object-storage/s3-endpoint.md
-      - Creating Buckets: object-storage/creating-buckets.md
-      - Access Keys and Secret Keys: object-storage/access-keys-and-secret-keys.md
-      - Using AWS CLI: object-storage/using-aws-cli.md
-      - Using S3 Browser and Cyberduck: object-storage/using-s3-browser-and-cyberduck.md
-      - Bucket Policies: object-storage/bucket-policies.md
-      - CORS Configuration: object-storage/cors-configuration.md
-      - Troubleshooting S3 Access: object-storage/troubleshooting-s3-access.md
+  - Troubleshooting:
+      - Cannot Log In: troubleshooting/cannot-log-in-to-cloud-computus-io.md
+      - VM Build Failed: troubleshooting/vm-build-failed.md
+      - S3 Issues: troubleshooting/s3-signaturedoesnotmatch.md
+      - Bucket Access Denied: troubleshooting/bucket-access-denied.md
 
-  - Identity and Access:
-      - Users: identity-and-access/users.md
-      - Roles: identity-and-access/roles.md
-      - Projects: identity-and-access/projects.md
-      - Password Resets: identity-and-access/password-resets.md
-      - MFA (Future): identity-and-access/mfa-future.md
-      - Email Confirmation Flow: identity-and-access/email-confirmation-flow.md
-
-  - Billing:
-      - OSIE Billing Overview: billing/osie-billing-overview.md
-      - Plans and Pricing: billing/plans-and-pricing.md
-      - Usage Metering: billing/usage-metering.md
-      - Invoices: billing/invoices.md
-      - Payment Methods: billing/payment-methods.md
-      - Account Credits: billing/account-credits.md
-      - Failed Payments: billing/failed-payments.md
-
-  - API and Automation:
-      - OpenStack API Overview: api-and-automation/openstack-api-overview.md
-      - S3 API Overview: api-and-automation/s3-api-overview.md
-      - Authentication: api-and-automation/authentication.md
-      - Example CLI Commands: api-and-automation/example-cli-commands.md
-      - Terraform (Future): api-and-automation/terraform-future.md
-      - SDK Examples: api-and-automation/sdk-examples.md
+  - Reference:
+      - Endpoint Reference (Beta): reference/endpoint-reference.md
+      - Glossary: reference/glossary.md
+      - FAQ (Beta): reference/faq.md
+      - Support & Feedback: reference/support-contact.md
 
   - Platform Architecture:
       - High-Level Architecture: platform-architecture/high-level-architecture.md
-      - OpenStack Services: platform-architecture/openstack-services.md
-      - OSIE Integration: platform-architecture/osie-integration.md
-      - Swift and S3 Compatibility: platform-architecture/swift-and-s3-compatibility.md
-      - DNS and Endpoints: platform-architecture/dns-and-endpoints.md
-      - Known Limitations: platform-architecture/known-limitations.md
-
-  - Operations:
-      - Admin Portal Access: operations/admin-portal-access.md
-      - Tenant Provisioning Flow: operations/tenant-provisioning-flow.md
-      - Router Creation Model: operations/router-creation-model.md
-      - Quotas: operations/quotas.md
-      - Monitoring and Alerts: operations/monitoring-and-alerts.md
-      - Backup Strategy: operations/backup-strategy.md
-      - Maintenance Windows: operations/maintenance-windows.md
-
-  - Security:
-      - Shared Responsibility Model: security/shared-responsibility-model.md
-      - Network Isolation: security/network-isolation.md
-      - API Credential Handling: security/api-credential-handling.md
-      - TLS and HTTPS: security/tls-and-https.md
-      - Logging and Audit: security/logging-and-audit.md
-      - Abuse Reporting: security/abuse-reporting.md
-
-  - Troubleshooting:
-      - Cannot Log In to cloud.computus.io: troubleshooting/cannot-log-in-to-cloud-computus-io.md
-      - Email Verification Not Arriving: troubleshooting/email-verification-not-arriving.md
-      - VM Build Failed: troubleshooting/vm-build-failed.md
-      - Floating IP Not Working: troubleshooting/floating-ip-not-working.md
-      - S3 SignatureDoesNotMatch: troubleshooting/s3-signaturedoesnotmatch.md
-      - Bucket Access Denied: troubleshooting/bucket-access-denied.md
-      - Dashboard and API Mismatch: troubleshooting/dashboard-and-api-mismatch.md
-
-  - Reference:
-      - Endpoint Reference: reference/endpoint-reference.md
-      - Port and Service Map: reference/port-and-service-map.md
-      - Glossary: reference/glossary.md
-      - FAQ: reference/faq.md
-      - Support Contact: reference/support-contact.md
+      - OpenStack + OSIE Integration: platform-architecture/osie-integration.md
