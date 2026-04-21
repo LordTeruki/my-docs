@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#common-networking-issues-beta" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1541,6 +1546,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Networking Issues
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1558,6 +1583,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cannot-ssh-to-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cannot SSH to VM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-internet-inside-private-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No Internet Inside Private Networks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#private-ipv4-not-working-between-vms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private IPv4 not working between VMs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2128,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cannot-ssh-to-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cannot SSH to VM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-internet-inside-private-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No Internet Inside Private Networks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#private-ipv4-not-working-between-vms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private IPv4 not working between VMs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,19 +2187,23 @@
 
 
 
-  <h1>Common Networking Issues</h1>
-
-<p># Common Networking Issues (Beta)</p>
-<p>## Cannot SSH to VM</p>
-<p>- Confirm you are using the **public IPv6 address**</p>
-<p>- Make sure the correct SSH key was selected during VM creation</p>
-<p>- Check Security Group allows port 22</p>
-<p>## No Internet Inside Private Networks</p>
-<p>- Create a router and set gateway to external net</p>
-<p>- Ensure the VM interface is attached to the correct network</p>
-<p>## Private IPv4 not working between VMs</p>
-<p>- Verify both VMs are attached to the same private network/subnet</p>
-<p>- Check firewall rules inside the VMs</p>
+<h1 id="common-networking-issues-beta">Common Networking Issues (Beta)<a class="headerlink" href="#common-networking-issues-beta" title="Permanent link">&para;</a></h1>
+<h2 id="cannot-ssh-to-vm">Cannot SSH to VM<a class="headerlink" href="#cannot-ssh-to-vm" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Confirm you are using the <strong>public IPv6 address</strong></li>
+<li>Make sure the correct SSH key was selected during VM creation</li>
+<li>Check Security Group allows port 22</li>
+</ul>
+<h2 id="no-internet-inside-private-networks">No Internet Inside Private Networks<a class="headerlink" href="#no-internet-inside-private-networks" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Create a router and set gateway to external net</li>
+<li>Ensure the VM interface is attached to the correct network</li>
+</ul>
+<h2 id="private-ipv4-not-working-between-vms">Private IPv4 not working between VMs<a class="headerlink" href="#private-ipv4-not-working-between-vms" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Verify both VMs are attached to the same private network/subnet</li>
+<li>Check firewall rules inside the VMs</li>
+</ul>
 <p>Report any unusual behavior through the dashboard Support.</p>
 
 
