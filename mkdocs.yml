@@ -61,56 +61,57 @@ nav:
   - Home: index.md
 
   - Getting Started:
-      - What is Computus Cloud Beta?: getting-started/what-is-computus-cloud.md
+      - What is Computus Cloud?: getting-started/what-is-computus-cloud.md
       - Platform Overview: getting-started/platform-overview.md
-      - Beta Limitations & Rules: getting-started/beta-limitations.md
-      - Account Signup (Beta): getting-started/account-signup.md
+      - Beta Limitations: getting-started/beta-limitations.md
+      - Account Signup: getting-started/account-signup.md
+      - First Login: getting-started/first-login.md
 
   - Control Panel:
       - Accessing the Portal: control-panel/accessing-the-portal.md
       - Dashboard Overview: control-panel/dashboard-overview.md
       - Projects and Tenants: control-panel/projects-and-tenants.md
       - Billing Overview: control-panel/billing-overview.md
-      - API Keys & Credentials: control-panel/api-keys.md
+      - API Keys: control-panel/api-keys.md
 
   - Object Storage (S3):
-      - S3 Overview (Beta): object-storage/object-storage-overview.md
+      - Overview: object-storage/object-storage-overview.md
       - S3 Endpoint: object-storage/s3-endpoint.md
-      - Creating Access & Secret Keys: object-storage/access-keys-and-secret-keys.md
+      - Access Keys: object-storage/access-keys-and-secret-keys.md
       - Creating Buckets: object-storage/creating-buckets.md
       - Using AWS CLI: object-storage/using-aws-cli.md
-      - Using S3 Browser / Cyberduck: object-storage/using-s3-browser-and-cyberduck.md
-      - Bucket Policies & CORS: object-storage/bucket-policies.md
-      - Troubleshooting S3 Access: object-storage/troubleshooting-s3-access.md
+      - Using S3 Browser: object-storage/using-s3-browser-and-cyberduck.md
+      - Bucket Policies: object-storage/bucket-policies.md
+      - Troubleshooting: object-storage/troubleshooting-s3-access.md
 
   - Compute:
       - Instances Overview: compute/instances-overview.md
       - Creating a VM: compute/creating-a-vm.md
-      - Available Flavors: compute/flavors.md
-      - Available Images: compute/images.md
+      - Flavors: compute/flavors.md
+      - Images: compute/images.md
       - SSH Keys: compute/ssh-keys.md
-      - IPv6 Access Only: compute/floating-ips.md
-      - Reboot, Stop & Resize: compute/reboot-stop-resize.md
+      - IPv6 Access: compute/floating-ips.md
+      - Reboot / Resize: compute/reboot-stop-resize.md
 
   - Networking:
-      - Networks Overview: networking/networks-overview.md
-      - Private Networks & Experiments: networking/private-networks.md
+      - Overview: networking/networks-overview.md
+      - Private Networks: networking/private-networks.md
       - Subnets & Routers: networking/routers.md
       - Security Groups: networking/security-groups.md
-      - Common Networking Issues: networking/common-networking-issues.md
+      - Common Issues: networking/common-networking-issues.md
 
   - Troubleshooting:
       - Cannot Log In: troubleshooting/cannot-log-in-to-cloud-computus-io.md
       - VM Build Failed: troubleshooting/vm-build-failed.md
-      - S3 Issues: troubleshooting/s3-signaturedoesnotmatch.md
+      - S3 Signature Error: troubleshooting/s3-signaturedoesnotmatch.md
       - Bucket Access Denied: troubleshooting/bucket-access-denied.md
 
   - Reference:
-      - Endpoint Reference (Beta): reference/endpoint-reference.md
+      - Endpoint Reference: reference/endpoint-reference.md
+      - FAQ: reference/faq.md
       - Glossary: reference/glossary.md
-      - FAQ (Beta): reference/faq.md
-      - Support & Feedback: reference/support-contact.md
+      - Support: reference/support-contact.md
 
   - Platform Architecture:
       - High-Level Architecture: platform-architecture/high-level-architecture.md
-      - OpenStack Services: platform-architecture/openstack-services.md
+      - OpenStack Integration: platform-architecture/openstack-services.md
