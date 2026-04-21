@@ -8,35 +8,29 @@
 
 1\. Go to \[https://beta.computus.io](https://beta.computus.io)
 
-2\. Click \*\*"Sign Up"\*\* or \*\*"Register"\*\*
+2\. Click \*\*Sign Up\*\* / \*\*Register\*\*
 
-3\. Enter your email address
+3\. Enter your \*\*real email address\*\* (this is required for verification)
 
-4\. Choose a strong password
+4\. Fill in the billing information (you can use fake card details — no charges will be processed during beta)
 
-5\. Complete the registration form
+5\. Choose a strong password
 
-6\. Click the verification link sent to your email
+6\. Complete registration
 
-
-
-Once verified, you can log in to the beta portal.
+7\. Verify your email by clicking the link sent to your inbox
 
 
 
-\## After Signup
+\## Important Beta Signup Notes
 
 
 
-\- You will be automatically placed in your own project/tenant
+\- A valid payment method must be added to complete signup, but \*\*no real charges\*\* will occur.
 
-\- Billing will start tracking usage immediately (credits may be applied for beta testers)
+\- You can use placeholder/fake billing details.
 
-\- You can immediately begin creating S3 credentials and SSH keys
-
-
-
-\*\*Note:\*\* Beta access is currently invite-only or manually approved. If you cannot create an account, please contact support.
+\- Once verified, you can immediately start using the platform.
 
 
 

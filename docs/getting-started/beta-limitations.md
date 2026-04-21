@@ -2,7 +2,7 @@
 
 
 
-\*\*Please read this page carefully.\*\* These limits are in place to ensure fair testing and to help us gather meaningful feedback.
+\*\*Please read this page carefully.\*\*
 
 
 
@@ -14,17 +14,31 @@
 
 |-----------------------|------------------------|-------|
 
-| \*\*Virtual Machines\*\*  | 2 VMs total per account | Cannot be increased during beta |
+| \*\*Virtual Machines\*\*  | 2 VMs total per account | Cannot be increased |
 
-| \*\*VM Flavors\*\*        | Tiny, Small, Medium only | Larger flavors not available yet |
+| \*\*VM Flavors\*\*        | Tiny, Small, Medium only | — |
 
-| \*\*Operating Systems\*\* | Ubuntu, Debian, Rocky Linux | Other images not available |
+| \*\*Operating Systems\*\* | Ubuntu, Debian, Rocky Linux | — |
 
-| \*\*Public Networking\*\* | IPv6 only              | No public IPv4 addresses |
+| \*\*Public Networking\*\* | IPv6 only              | No public IPv4 |
 
 | \*\*Object Storage\*\*    | \*\*200 GB\*\* total       | Hard limit across all buckets |
 
-| \*\*Private Networks\*\*  | Unlimited              | Create as many as you want |
+| \*\*Private Networks\*\*  | Unlimited              | Experiment freely |
+
+
+
+\## Billing During Beta
+
+
+
+\- Usage is fully metered and visible in the Billing section
+
+\- Your account balance \*\*may go negative\*\* — this is normal and expected
+
+\- \*\*No real charges\*\* will be processed
+
+\- Billing enforcement is disabled — you will not be suspended for negative balance or usage
 
 
 
@@ -32,19 +46,11 @@
 
 
 
-\- All usage is metered and visible in the billing section
+\- Do not attempt to bypass the 2-VM limit
 
-\- Do not attempt to bypass limits (e.g. creating more than 2 VMs)
+\- Report any bugs or unexpected behavior through Support
 
-\- Beta accounts may be paused or reset with short notice for maintenance
-
-\- The platform is still under active development — expect occasional issues
-
-\- Your feedback is highly valuable. Please report bugs and suggestions via the portal
-
-
-
-\*\*Violating limits may result in account suspension during the beta period.\*\*
+\- Your feedback is extremely valuable
 
 
 
