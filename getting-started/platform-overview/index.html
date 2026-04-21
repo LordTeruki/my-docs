@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#platform-overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -541,6 +546,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform Overview
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -558,6 +583,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-technology-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Technology Stack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beta-architecture-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beta Architecture Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2117,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-technology-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Technology Stack
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beta-architecture-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beta Architecture Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,26 +2165,45 @@
 
 
 
-  <h1>Platform Overview</h1>
-
-<p># Platform Overview</p>
+<h1 id="platform-overview">Platform Overview<a class="headerlink" href="#platform-overview" title="Permanent link">&para;</a></h1>
 <p>Computus Cloud Beta consists of two main access points:</p>
-<p>| Component              | URL                              | Purpose |</p>
-<p>|------------------------|----------------------------------|--------|</p>
-<p>| **Beta Portal**        | https://beta.computus.io        | Web dashboard, VM management, billing, SSH keys, S3 credentials |</p>
-<p>| **S3 API Endpoint**    | https://s3.computus.io:8080     | Object storage (buckets \&amp; files) |</p>
-<p>## Core Technology Stack</p>
-<p>- **OpenStack** — powers compute, networking, and storage</p>
-<p>- **OSIE** — handles user accounts, billing, metering, and portal workflows</p>
-<p>- **Swift (with S3 compatibility)** — provides Amazon S3-compatible object storage</p>
-<p>## Beta Architecture Summary</p>
-<p>- You manage everything through the web portal at <code>beta.computus.io</code></p>
-<p>- VMs are launched on our OpenStack cluster</p>
-<p>- Public access to VMs is via **IPv6 only**</p>
-<p>- Private IPv4 networks are fully available for internal communication between VMs</p>
-<p>- Object storage is accessed directly via the S3 API</p>
-<p>---</p>
-<p>**Next:** [Beta Limitations \&amp; Rules](beta-limitations.md)</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>URL</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Beta Portal</strong></td>
+<td>https://beta.computus.io</td>
+<td>Web dashboard, VM management, billing, SSH keys, S3 credentials</td>
+</tr>
+<tr>
+<td><strong>S3 API Endpoint</strong></td>
+<td>https://s3.computus.io:8080</td>
+<td>Object storage (buckets &amp; files)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="core-technology-stack">Core Technology Stack<a class="headerlink" href="#core-technology-stack" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>OpenStack</strong> — powers compute, networking, and storage</li>
+<li><strong>OSIE</strong> — handles user accounts, billing, metering, and portal workflows</li>
+<li><strong>Swift (with S3 compatibility)</strong> — provides Amazon S3-compatible object storage</li>
+</ul>
+<h2 id="beta-architecture-summary">Beta Architecture Summary<a class="headerlink" href="#beta-architecture-summary" title="Permanent link">&para;</a></h2>
+<ul>
+<li>You manage everything through the web portal at <code>beta.computus.io</code></li>
+<li>VMs are launched on our OpenStack cluster</li>
+<li>Public access to VMs is via <strong>IPv6 only</strong></li>
+<li>Private IPv4 networks are fully available for internal communication between VMs</li>
+<li>Object storage is accessed directly via the S3 API</li>
+</ul>
+<hr />
+<p><strong>Next:</strong> <a href="../beta-limitations/">Beta Limitations &amp; Rules</a></p>
 
 
 
