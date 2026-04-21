@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#creating-a-vm-beta" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1200,6 +1205,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating a VM
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1217,6 +1242,64 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step Instructions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Connect
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2134,55 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step Instructions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Connect
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,33 +2199,33 @@
 
 
 
-  <h1>Creating a VM</h1>
-
-<p># Creating a VM (Beta)</p>
+<h1 id="creating-a-vm-beta">Creating a VM (Beta)<a class="headerlink" href="#creating-a-vm-beta" title="Permanent link">&para;</a></h1>
 <p>Follow these steps to launch your first virtual machine.</p>
-<p>## Step-by-Step Instructions</p>
-<p>1. Log in to [https://beta.computus.io](https://beta.computus.io)</p>
-<p>2. In the left menu, go to **Compute → Instances**</p>
-<p>3. Click **Launch Instance** or **Create VM**</p>
-<p>### Required Settings:</p>
-<p>- **Name**: Give your VM a meaningful name</p>
-<p>- **Image**: Choose one of:</p>
-<p>&#x20; - Ubuntu (latest)</p>
-<p>&#x20; - Debian (latest)</p>
-<p>&#x20; - Rocky Linux (latest)</p>
-<p>- **Flavor**:</p>
-<p>&#x20; - Tiny</p>
-<p>&#x20; - Small</p>
-<p>&#x20; - Medium</p>
-<p>- **SSH Key**: Select the SSH key you previously uploaded (required)</p>
-<p>- **Network**: Select **external net** (this is the default — very important)</p>
-<p>- **Security Group**: Use the default one for now</p>
-<p>4. Click **Launch** / **Create**</p>
-<p>After a few minutes, your VM should show as **Active** with a public **IPv6** address.</p>
-<p>## How to Connect</p>
-<p>Use SSH with your private key:</p>
-<p>```bash</p>
-<p>ssh -i \~/.ssh/your_private_key user@your-ipv6-address</p>
+<h2 id="step-by-step-instructions">Step-by-Step Instructions<a class="headerlink" href="#step-by-step-instructions" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Log in to https://beta.computus.io</li>
+<li>Go to Compute → Instances</li>
+<li>Click Launch Instance</li>
+</ol>
+<h3 id="required-settings">Required Settings<a class="headerlink" href="#required-settings" title="Permanent link">&para;</a></h3>
+<p>Name: give your VM a meaningful name</p>
+<p>Image:
+- Ubuntu
+- Debian
+- Rocky Linux</p>
+<p>Flavor:
+- Tiny
+- Small
+- Medium</p>
+<p>SSH Key: select your uploaded key (required)</p>
+<p>Network: select external net (very important)</p>
+<p>Security Group: use the default</p>
+<ol>
+<li>Click Launch</li>
+</ol>
+<p>After a few minutes, your VM will become Active with a public IPv6 address.</p>
+<h2 id="how-to-connect">How to Connect<a class="headerlink" href="#how-to-connect" title="Permanent link">&para;</a></h2>
+<p>ssh -i ~/.ssh/your_private_key user@your-ipv6-address</p>
 
 
 

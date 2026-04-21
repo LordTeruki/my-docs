@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ipv6-access-only-beta" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1312,6 +1317,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IPv6 Access Only
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1329,6 +1354,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-get" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You Get
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connecting
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2117,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-get" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You Get
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connecting
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,19 +2165,17 @@
 
 
 
-  <h1>IPv6 Access Only</h1>
-
-<p># IPv6 Access Only (Beta)</p>
-<p>During the beta, all virtual machines receive a **public IPv6 address** automatically. There are **no public IPv4 addresses** available.</p>
-<p>## What You Get</p>
-<p>- One public IPv6 address per VM (on "external net")</p>
-<p>- Full outbound and inbound IPv6 connectivity</p>
-<p>- Private IPv4 address on the internal network</p>
-<p>## Connecting to Your VM</p>
-<p>You must connect using the IPv6 address via SSH. Most modern operating systems and networks support IPv6.</p>
-<p>**Example:**</p>
-<p>```bash</p>
-<p>ssh ubuntu@2607:xxxx:xxxx:xxxx::xxxx</p>
+<h1 id="ipv6-access-only-beta">IPv6 Access Only (Beta)<a class="headerlink" href="#ipv6-access-only-beta" title="Permanent link">&para;</a></h1>
+<p>All VMs receive a public IPv6 address automatically.</p>
+<p>There is no public IPv4 during beta.</p>
+<h2 id="what-you-get">What You Get<a class="headerlink" href="#what-you-get" title="Permanent link">&para;</a></h2>
+<ul>
+<li>One IPv6 address per VM</li>
+<li>Full inbound and outbound connectivity</li>
+<li>Private IPv4 internally</li>
+</ul>
+<h2 id="connecting">Connecting<a class="headerlink" href="#connecting" title="Permanent link">&para;</a></h2>
+<p>ssh user@your-ipv6-address</p>
 
 
 
