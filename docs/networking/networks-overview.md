@@ -30,7 +30,7 @@ Computus Cloud Beta gives you full control over networking. You can create priva
 
 \- \*\*Routers\*\* — For connecting networks and enabling outbound access
 
-\- \*\*Security Groups\*\* — Firewall rules for your VMs
+\- \*\*Security Groups\*\* — Firewall rules for your VM
 
 
 
