@@ -2097,7 +2097,18 @@
 
   <h1>Common Networking Issues</h1>
 
-
+<p># Common Networking Issues (Beta)</p>
+<p>**Cannot SSH to VM**</p>
+<p>- Confirm you are using the **public IPv6 address**</p>
+<p>- Make sure the correct SSH key was selected during VM creation</p>
+<p>- Check Security Group allows port 22</p>
+<p>**No Internet Inside Private Networks**</p>
+<p>- Create a router and set gateway to external net</p>
+<p>- Ensure the VM interface is attached to the correct network</p>
+<p>**Private IPv4 not working between VMs**</p>
+<p>- Verify both VMs are attached to the same private network/subnet</p>
+<p>- Check firewall rules inside the VMs</p>
+<p>Report any unusual behavior through the dashboard Support.</p>
 
 
 
