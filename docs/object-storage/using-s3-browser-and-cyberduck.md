@@ -1,10 +1,3 @@
-
----
-
-# ✅ 4. `using-s3-browser-and-cyberduck.md`
-(Fixed from :contentReference[oaicite:3]{index=3})
-
-```md
 # Using S3 Browser and Cyberduck (Beta)
 
 ## Recommended Tools
@@ -13,7 +6,7 @@
 - **Cyberduck** (Windows / macOS) — user friendly
 - **rclone** — great for scripting
 
-### Cyberduck Setup Example
+## Cyberduck Setup Example
 
 1. Open Cyberduck
 2. Click **Open Connection**
@@ -27,4 +20,3 @@
 ---
 
 **Next:** [Bucket Policies & CORS](bucket-policies.md)
-

@@ -12,11 +12,3 @@
 ---
 
 **Next:** [Creating Access & Secret Keys](access-keys-and-secret-keys.md)
-
-
-\---
-
-
-
-\*\*Next:\*\* \[Creating Access \& Secret Keys](access-keys-and-secret-keys.md)
-
