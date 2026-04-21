@@ -18,5 +18,5 @@ If you need public access or specific CORS rules (e.g. for web applications), yo
 
 
 
-\*\*Next:\*\* \[Troubleshooting S3 Access](troubleshooting-s3-access.md)
+\*\*Next:\*\* \[Troubleshooting S3 Access](troubleshooting-s3-access.md))
 
