@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#vm-build-failed" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1658,6 +1663,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VM Build Failed
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1675,6 +1700,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#common-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Reasons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2117,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#common-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Reasons
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,22 +2165,24 @@
 
 
 
-  <h1>VM Build Failed</h1>
-
-<p># VM Build Failed</p>
-<p>## Common Reasons</p>
-<p>- No SSH key uploaded before launching the instance</p>
-<p>- Did not select **"external net"** as the network</p>
-<p>- Selected a flavor or image that is not available in beta</p>
-<p>- Reached the limit of 2 VMs</p>
-<p>## How to Fix</p>
-<p>1. Go to **Access → SSH Keys** and upload a public key</p>
-<p>2. Delete any failed instance</p>
-<p>3. Launch again, making sure to:</p>
-<p>&#x20;  - Choose Ubuntu/Debian/Rocky</p>
-<p>&#x20;  - Choose Tiny/Small/Medium flavor</p>
-<p>&#x20;  - Select **external net**</p>
-<p>&#x20;  - Select your SSH key</p>
+<h1 id="vm-build-failed">VM Build Failed<a class="headerlink" href="#vm-build-failed" title="Permanent link">&para;</a></h1>
+<h2 id="common-reasons">Common Reasons<a class="headerlink" href="#common-reasons" title="Permanent link">&para;</a></h2>
+<ul>
+<li>No SSH key uploaded before launching the instance</li>
+<li>Did not select external net as the network</li>
+<li>Selected a flavor or image that is not available in beta</li>
+<li>Reached the limit of 2 VMs</li>
+</ul>
+<h2 id="how-to-fix">How to Fix<a class="headerlink" href="#how-to-fix" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Go to Access → SSH Keys and upload a public key.</li>
+<li>Delete any failed instance.</li>
+<li>Launch again and make sure to:</li>
+<li>Choose Ubuntu, Debian, or Rocky Linux</li>
+<li>Choose Tiny, Small, or Medium flavor</li>
+<li>Select external net</li>
+<li>Select your SSH key</li>
+</ol>
 <p>Check the instance logs in the dashboard for more details.</p>
 
 

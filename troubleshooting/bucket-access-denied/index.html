@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#bucket-access-denied" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1714,6 +1719,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bucket Access Denied
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1731,6 +1756,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#possible-causes-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Causes &amp; Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2106,27 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#possible-causes-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Causes &amp; Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,19 +2143,15 @@
 
 
 
-  <h1>Bucket Access Denied</h1>
-
-<p>---</p>
-<p>### 4. <code>troubleshooting/bucket-access-denied.md</code></p>
-<p>```markdown</p>
-<p># Bucket Access Denied</p>
-<p>## Possible Causes \&amp; Fixes</p>
-<p>- Using the wrong Access Key / Secret Key</p>
-<p>- Trying to access a bucket that doesn't exist</p>
-<p>- Bucket name contains uppercase letters or invalid characters</p>
-<p>- Using the wrong endpoint (<code>:8080</code> is required)</p>
-<p>**Quick Test:**</p>
-<p>```bash</p>
+<h1 id="bucket-access-denied">Bucket Access Denied<a class="headerlink" href="#bucket-access-denied" title="Permanent link">&para;</a></h1>
+<h2 id="possible-causes-fixes">Possible Causes &amp; Fixes<a class="headerlink" href="#possible-causes-fixes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Using the wrong Access Key or Secret Key</li>
+<li>Trying to access a bucket that does not exist</li>
+<li>Bucket name contains uppercase letters or invalid characters</li>
+<li>Using the wrong endpoint (:8080 is required)</li>
+</ul>
+<p>Quick test:</p>
 <p>aws s3 ls --endpoint-url https://s3.computus.io:8080</p>
 
 
