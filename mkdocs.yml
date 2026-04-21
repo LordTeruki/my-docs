@@ -1,6 +1,6 @@
 site_name: Computus Cloud Beta Docs
 site_url: https://docs.computus.io/
-site_description: Official documentation for the Computus Cloud Beta — OpenStack + OSIE + S3-compatible storage (limited to beta testers)
+site_description: Official documentation for the Computus Cloud Beta — OpenStack-based cloud with S3-compatible object storage (limited to beta testers)
 site_author: Computus
 
 theme:
@@ -76,7 +76,7 @@ nav:
 
   - Object Storage (S3):
       - S3 Overview (Beta): object-storage/object-storage-overview.md
-      - S3 Endpoint (s3.computus.io:8080): object-storage/s3-endpoint.md
+      - S3 Endpoint: object-storage/s3-endpoint.md
       - Creating Access & Secret Keys: object-storage/access-keys-and-secret-keys.md
       - Creating Buckets: object-storage/creating-buckets.md
       - Using AWS CLI: object-storage/using-aws-cli.md
@@ -85,13 +85,13 @@ nav:
       - Troubleshooting S3 Access: object-storage/troubleshooting-s3-access.md
 
   - Compute:
-      - Instances Overview (Beta): compute/instances-overview.md
-      - Creating a VM (Beta): compute/creating-a-vm.md
-      - Available Flavors (Tiny/Small/Medium): compute/flavors.md
-      - Available Images (Ubuntu/Debian/Rocky): compute/images.md
-      - SSH Keys (Required): compute/ssh-keys.md
+      - Instances Overview: compute/instances-overview.md
+      - Creating a VM: compute/creating-a-vm.md
+      - Available Flavors: compute/flavors.md
+      - Available Images: compute/images.md
+      - SSH Keys: compute/ssh-keys.md
       - IPv6 Access Only: compute/floating-ips.md
-      - Reboot, Stop, Resize: compute/reboot-stop-resize.md
+      - Reboot, Stop & Resize: compute/reboot-stop-resize.md
 
   - Networking:
       - Networks Overview: networking/networks-overview.md
@@ -114,4 +114,4 @@ nav:
 
   - Platform Architecture:
       - High-Level Architecture: platform-architecture/high-level-architecture.md
-      - OpenStack + OSIE Integration: platform-architecture/osie-integration.md
+      - OpenStack Integration: platform-architecture/openstack-integration.md
