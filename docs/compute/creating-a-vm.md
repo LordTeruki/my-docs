@@ -1,70 +1,37 @@
-\# Creating a VM (Beta)
-
-
+# Creating a VM (Beta)
 
 Follow these steps to launch your first virtual machine.
 
+## Step-by-Step Instructions
 
+1. Log in to https://beta.computus.io
+2. Go to Compute → Instances
+3. Click Launch Instance
 
-\## Step-by-Step Instructions
+### Required Settings
 
+Name: give your VM a meaningful name
 
+Image:
+- Ubuntu
+- Debian
+- Rocky Linux
 
-1\. Log in to \[https://beta.computus.io](https://beta.computus.io)
+Flavor:
+- Tiny
+- Small
+- Medium
 
-2\. In the left menu, go to \*\*Compute → Instances\*\*
+SSH Key: select your uploaded key (required)
 
-3\. Click \*\*Launch Instance\*\* or \*\*Create VM\*\*
+Network: select external net (very important)
 
+Security Group: use the default
 
+4. Click Launch
 
-\### Required Settings:
+After a few minutes, your VM will become Active with a public IPv6 address.
 
+## How to Connect
 
-
-\- \*\*Name\*\*: Give your VM a meaningful name
-
-\- \*\*Image\*\*: Choose one of:
-
-&#x20; - Ubuntu (latest)
-
-&#x20; - Debian (latest)
-
-&#x20; - Rocky Linux (latest)
-
-\- \*\*Flavor\*\*:
-
-&#x20; - Tiny
-
-&#x20; - Small
-
-&#x20; - Medium
-
-\- \*\*SSH Key\*\*: Select the SSH key you previously uploaded (required)
-
-\- \*\*Network\*\*: Select \*\*external net\*\* (this is the default — very important)
-
-\- \*\*Security Group\*\*: Use the default one for now
-
-
-
-4\. Click \*\*Launch\*\* / \*\*Create\*\*
-
-
-
-After a few minutes, your VM should show as \*\*Active\*\* with a public \*\*IPv6\*\* address.
-
-
-
-\## How to Connect
-
-
-
-Use SSH with your private key:
-
-
-
-```bash
-
-ssh -i \~/.ssh/your\_private\_key user@your-ipv6-address
-
+ssh -i ~/.ssh/your_private_key user@your-ipv6-address
