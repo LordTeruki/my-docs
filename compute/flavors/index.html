@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Official documentation for the Computus Cloud Beta — OpenStack + OSIE + S3-compatible storage (limited to beta testers)">
+        <meta name="description" content="Official documentation for the Computus Cloud Beta — OpenStack-based cloud with S3-compatible object storage (limited to beta testers)">
       
       
         <meta name="author" content="Computus">
@@ -29,7 +29,7 @@
     
     
       
-        <title>Available Flavors (Tiny/Small/Medium) - Computus Cloud Beta Docs</title>
+        <title>Available Flavors - Computus Cloud Beta Docs</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Available Flavors (Tiny/Small/Medium)
+              Available Flavors
             
           </span>
         </div>
@@ -941,7 +941,7 @@
   <span class="md-ellipsis">
     
   
-    S3 Endpoint (s3.computus.io:8080)
+    S3 Endpoint
   
 
     
@@ -1201,7 +1201,7 @@
   <span class="md-ellipsis">
     
   
-    Instances Overview (Beta)
+    Instances Overview
   
 
     
@@ -1229,7 +1229,7 @@
   <span class="md-ellipsis">
     
   
-    Creating a VM (Beta)
+    Creating a VM
   
 
     
@@ -1264,7 +1264,7 @@
   <span class="md-ellipsis">
     
   
-    Available Flavors (Tiny/Small/Medium)
+    Available Flavors
   
 
     
@@ -1293,7 +1293,7 @@
   <span class="md-ellipsis">
     
   
-    Available Images (Ubuntu/Debian/Rocky)
+    Available Images
   
 
     
@@ -1321,7 +1321,7 @@
   <span class="md-ellipsis">
     
   
-    SSH Keys (Required)
+    SSH Keys
   
 
     
@@ -1377,7 +1377,7 @@
   <span class="md-ellipsis">
     
   
-    Reboot, Stop, Resize
+    Reboot, Stop & Resize
   
 
     
@@ -2034,14 +2034,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../platform-architecture/osie-integration/" class="md-nav__link">
+      <a href="../../platform-architecture/openstack-integration.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    OpenStack + OSIE Integration
+    OpenStack Integration
   
 
     
@@ -2095,9 +2095,21 @@
 
 
 
-  <h1>Available Flavors (Tiny/Small/Medium)</h1>
+  <h1>Available Flavors</h1>
 
-
+<p>---</p>
+<p>### 3. <code>compute/flavors.md</code></p>
+<p>```markdown</p>
+<p># Available Flavors (Beta)</p>
+<p>Only three flavors are available during the beta:</p>
+<p>| Flavor  | vCPUs | RAM    | Disk   | Recommended Use |</p>
+<p>|---------|-------|--------|--------|-----------------|</p>
+<p>| **Tiny**   | 1     | 1 GB   | 20 GB  | Testing, light services |</p>
+<p>| **Small**  | 2     | 2 GB   | 40 GB  | Small websites, development |</p>
+<p>| **Medium** | 4     | 4 GB   | 60 GB  | Medium workloads, databases |</p>
+<p>These are the only sizes available. Larger flavors will be added after beta.</p>
+<p>---</p>
+<p>**Next:** [Available Images](images.md)</p>
 
 
 

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Official documentation for the Computus Cloud Beta — OpenStack + OSIE + S3-compatible storage (limited to beta testers)">
+        <meta name="description" content="Official documentation for the Computus Cloud Beta — OpenStack-based cloud with S3-compatible object storage (limited to beta testers)">
       
       
         <meta name="author" content="Computus">
@@ -29,7 +29,7 @@
     
     
       
-        <title>Creating a VM (Beta) - Computus Cloud Beta Docs</title>
+        <title>Creating a VM - Computus Cloud Beta Docs</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Creating a VM (Beta)
+              Creating a VM
             
           </span>
         </div>
@@ -941,7 +941,7 @@
   <span class="md-ellipsis">
     
   
-    S3 Endpoint (s3.computus.io:8080)
+    S3 Endpoint
   
 
     
@@ -1201,7 +1201,7 @@
   <span class="md-ellipsis">
     
   
-    Instances Overview (Beta)
+    Instances Overview
   
 
     
@@ -1236,7 +1236,7 @@
   <span class="md-ellipsis">
     
   
-    Creating a VM (Beta)
+    Creating a VM
   
 
     
@@ -1265,7 +1265,7 @@
   <span class="md-ellipsis">
     
   
-    Available Flavors (Tiny/Small/Medium)
+    Available Flavors
   
 
     
@@ -1293,7 +1293,7 @@
   <span class="md-ellipsis">
     
   
-    Available Images (Ubuntu/Debian/Rocky)
+    Available Images
   
 
     
@@ -1321,7 +1321,7 @@
   <span class="md-ellipsis">
     
   
-    SSH Keys (Required)
+    SSH Keys
   
 
     
@@ -1377,7 +1377,7 @@
   <span class="md-ellipsis">
     
   
-    Reboot, Stop, Resize
+    Reboot, Stop & Resize
   
 
     
@@ -2034,14 +2034,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../platform-architecture/osie-integration/" class="md-nav__link">
+      <a href="../../platform-architecture/openstack-integration.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    OpenStack + OSIE Integration
+    OpenStack Integration
   
 
     
@@ -2095,9 +2095,33 @@
 
 
 
-  <h1>Creating a VM (Beta)</h1>
+  <h1>Creating a VM</h1>
 
-
+<p># Creating a VM (Beta)</p>
+<p>Follow these steps to launch your first virtual machine.</p>
+<p>## Step-by-Step Instructions</p>
+<p>1. Log in to [https://beta.computus.io](https://beta.computus.io)</p>
+<p>2. In the left menu, go to **Compute → Instances**</p>
+<p>3. Click **Launch Instance** or **Create VM**</p>
+<p>### Required Settings:</p>
+<p>- **Name**: Give your VM a meaningful name</p>
+<p>- **Image**: Choose one of:</p>
+<p>&#x20; - Ubuntu (latest)</p>
+<p>&#x20; - Debian (latest)</p>
+<p>&#x20; - Rocky Linux (latest)</p>
+<p>- **Flavor**:</p>
+<p>&#x20; - Tiny</p>
+<p>&#x20; - Small</p>
+<p>&#x20; - Medium</p>
+<p>- **SSH Key**: Select the SSH key you previously uploaded (required)</p>
+<p>- **Network**: Select **external net** (this is the default — very important)</p>
+<p>- **Security Group**: Use the default one for now</p>
+<p>4. Click **Launch** / **Create**</p>
+<p>After a few minutes, your VM should show as **Active** with a public **IPv6** address.</p>
+<p>## How to Connect</p>
+<p>Use SSH with your private key:</p>
+<p>```bash</p>
+<p>ssh -i \~/.ssh/your_private_key user@your-ipv6-address</p>
 
 
 
