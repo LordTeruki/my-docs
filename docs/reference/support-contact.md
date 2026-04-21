@@ -1,32 +1,14 @@
-\# Frequently Asked Questions (Beta)
+# Support Contact
 
+If you need help during the beta, use the Support section in the dashboard whenever possible.
 
+You can also email:
 
-\*\*Q: Will I be charged?\*\*  
+support@computus.io
 
-A: No. Billing enforcement is disabled. Your balance may go negative — this is expected.
+## What to Include
 
-
-
-\*\*Q: How many VMs can I run?\*\*  
-
-A: Maximum 2 VMs total.
-
-
-
-\*\*Q: Can I use public IPv4?\*\*  
-
-A: Not during beta. Use IPv6 only for public access.
-
-
-
-\*\*Q: What is the S3 limit?\*\*  
-
-A: 200 GB total across all buckets.
-
-
-
-\*\*Q: How do I give feedback?\*\*  
-
-A: Use the \*\*Support\*\* section in the dashboard.
-
+- Your account email
+- What you were trying to do
+- The exact error message, if any
+- Screenshots or steps to reproduce the issue
