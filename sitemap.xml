@@ -2,218 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.computus.io/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/creating-a-vm/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/flavors/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/floating-ips/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/images/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/instances-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/reboot-stop-resize/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/ssh-keys/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/compute/troubleshooting-vm-provisioning/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/control-panel/accessing-the-portal/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/control-panel/api-keys/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/control-panel/billing-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/control-panel/dashboard-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/control-panel/projects-and-tenants/</loc>
-         <lastmod>2026-04-19</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/control-panel/support-requests/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/getting-started/account-signup/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/getting-started/beta-limitations/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/getting-started/email-verification/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/getting-started/platform-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/getting-started/what-is-computus-cloud/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/common-networking-issues/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/floating-ips/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/networks-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/private-networks/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/routers/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/security-groups/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/networking/subnets/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/access-keys-and-secret-keys/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/bucket-policies/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/cors-configuration/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/creating-buckets/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/object-storage-overview/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/s3-endpoint/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/troubleshooting-s3-access/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/using-aws-cli/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/object-storage/using-s3-browser-and-cyberduck/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/platform-architecture/dns-and-endpoints/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/platform-architecture/high-level-architecture/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/platform-architecture/known-limitations/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/platform-architecture/openstack-services/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/platform-architecture/osie-integration/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/platform-architecture/swift-and-s3-compatibility/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/reference/endpoint-reference/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/reference/faq/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/reference/glossary/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/reference/port-and-service-map/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/reference/support-contact/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/bucket-access-denied/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/cannot-log-in-to-cloud-computus-io/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/dashboard-and-api-mismatch/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/email-verification-not-arriving/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/floating-ip-not-working/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/s3-signaturedoesnotmatch/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/vm-build-failed/</loc>
-         <lastmod>2026-04-19</lastmod>
+         <lastmod>2026-04-21</lastmod>
     </url>
 </urlset>

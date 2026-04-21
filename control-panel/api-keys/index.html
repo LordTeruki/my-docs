@@ -2097,7 +2097,37 @@
 
   <h1>API Keys & Credentials</h1>
 
-
+<p># API Keys \&amp; Credentials</p>
+<p>This section is critical for using the platform.</p>
+<p>## Two Types of Credentials</p>
+<p>### 1. S3 Credentials (Object Storage)</p>
+<p>**Path:** Access → S3 Credentials</p>
+<p>**How to create:**</p>
+<p>1. Go to **Access → S3 Credentials**</p>
+<p>2. Click **Create Credentials**</p>
+<p>3. Give it a description (e.g. "My Backup Tool")</p>
+<p>4. Click **Create**</p>
+<p>5. **Immediately copy and save** the **Access Key** and **Secret Key** securely</p>
+<blockquote>
+<p>These are used with the S3 endpoint <code>https://s3.computus.io:8080</code></p>
+</blockquote>
+<p>### 2. SSH Keys (for Virtual Machines)</p>
+<p>**Path:** Access → SSH Keys</p>
+<p>**How to create:**</p>
+<p>1. Go to **Access → SSH Keys**</p>
+<p>2. Click **Create SSH Key**</p>
+<p>3. Give it a name</p>
+<p>4. Paste your **public key** (e.g. content of <code>id\_ed25519.pub</code> or <code>id\_rsa.pub</code>)</p>
+<p>5. Click **Save**</p>
+<p>You must upload at least one SSH key before launching any VM.</p>
+<p>## Best Practices</p>
+<p>- Never share your Secret Key</p>
+<p>- Create separate credentials for different tools or applications</p>
+<p>- Rotate credentials periodically</p>
+<p>- Delete unused credentials</p>
+<p>---</p>
+<p>**All Control Panel pages updated.**</p>
+<p>Would you like me to also revise the **Getting Started** section to remove any remaining OSIE mentions for consistency? Or should we move straight to the **Object Storage (S3)** section now?</p>
 
 
 
