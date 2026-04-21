@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#creating-access-secret-keys" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -943,6 +948,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating Access & Secret Keys
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -960,6 +985,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create Credentials
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2117,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create Credentials
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,28 +2165,30 @@
 
 
 
-  <h1>Creating Access & Secret Keys</h1>
-
-<p># Creating Access \&amp; Secret Keys</p>
+<h1 id="creating-access-secret-keys">Creating Access &amp; Secret Keys<a class="headerlink" href="#creating-access-secret-keys" title="Permanent link">&para;</a></h1>
 <p>You need an Access Key and Secret Key to use the S3 API.</p>
-<p>## How to Create Credentials</p>
-<p>1. Log in to [https://beta.computus.io](https://beta.computus.io)</p>
-<p>2. In the left menu, go to **Access → S3 Credentials**</p>
-<p>3. Click **Create Credentials** / **Create S3 Key**</p>
-<p>4. Enter a description (e.g. "AWS CLI Key" or "Cyberduck")</p>
-<p>5. Click **Create**</p>
-<p>6. **Immediately copy** the following:</p>
-<p>&#x20;  - **Access Key**</p>
-<p>&#x20;  - **Secret Key**</p>
+<h2 id="how-to-create-credentials">How to Create Credentials<a class="headerlink" href="#how-to-create-credentials" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Log in to https://beta.computus.io</li>
+<li>In the left menu, go to <strong>Access → S3 Credentials</strong></li>
+<li>Click <strong>Create Credentials</strong> / <strong>Create S3 Key</strong></li>
+<li>Enter a description (e.g. "AWS CLI Key" or "Cyberduck")</li>
+<li>Click <strong>Create</strong></li>
+<li><strong>Immediately copy</strong> the following:</li>
+<li><strong>Access Key</strong></li>
+<li><strong>Secret Key</strong></li>
+</ol>
 <blockquote>
 <p>Save these securely. The Secret Key will not be shown again.</p>
 </blockquote>
-<p>## Important Notes</p>
-<p>- You can create multiple key pairs</p>
-<p>- Each key works with all your buckets</p>
-<p>- Rotate or delete keys regularly for security</p>
-<p>---</p>
-<p>**Next:** [Creating Buckets](creating-buckets.md)</p>
+<h2 id="important-notes">Important Notes<a class="headerlink" href="#important-notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>You can create multiple key pairs</li>
+<li>Each key works with all your buckets</li>
+<li>Rotate or delete keys regularly for security</li>
+</ul>
+<hr />
+<p><strong>Next:</strong> <a href="../creating-buckets/">Creating Buckets</a></p>
 
 
 

@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#using-aws-cli-with-s3" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -999,6 +1004,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using AWS CLI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1016,6 +1041,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configure-aws-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configure AWS CLI
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2106,27 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configure-aws-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configure AWS CLI
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,16 +2143,20 @@
 
 
 
-  <h1>Using AWS CLI</h1>
-
-<p>---</p>
-<p>### 5. <code>object-storage/using-aws-cli.md</code></p>
-<p>```markdown</p>
-<p># Using AWS CLI with S3</p>
-<p>## Configure AWS CLI</p>
+<h1 id="using-aws-cli-with-s3">Using AWS CLI with S3<a class="headerlink" href="#using-aws-cli-with-s3" title="Permanent link">&para;</a></h1>
+<h2 id="configure-aws-cli">Configure AWS CLI<a class="headerlink" href="#configure-aws-cli" title="Permanent link">&para;</a></h2>
 <p>Run this command and fill in the details:</p>
-<p>```bash</p>
-<p>aws configure --profile computus</p>
+<p>```bash
+aws configure --profile computus</p>
+<p>aws --profile computus \
+  --endpoint-url https://s3.computus.io:8080 \
+  s3 ls</p>
+<p>aws --profile computus \
+  --endpoint-url https://s3.computus.io:8080 \
+  s3 mb s3://my-first-bucket</p>
+<p>aws --profile computus \
+  --endpoint-url https://s3.computus.io:8080 \
+  s3 cp file.txt s3://my-first-bucket/</p>
 
 
 
