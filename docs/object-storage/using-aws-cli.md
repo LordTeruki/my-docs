@@ -4,9 +4,7 @@
 
 Run this command and fill in the details:
 
-~~~bash
 aws configure --profile computus
-~~~
 
 Example values:
 
@@ -19,28 +17,18 @@ Example values:
 
 ### List Buckets
 
-~~~bash
 aws --profile computus \
   --endpoint-url https://s3.computus.io:8080 \
   s3 ls
-~~~
 
 ### Create a Bucket
 
-~~~bash
 aws --profile computus \
   --endpoint-url https://s3.computus.io:8080 \
   s3 mb s3://my-first-bucket
-~~~
 
 ### Upload a File
 
-~~~bash
 aws --profile computus \
   --endpoint-url https://s3.computus.io:8080 \
   s3 cp file.txt s3://my-first-bucket/
-~~~
-
----
-
-**Next:** [Using S3 Browser and Cyberduck](using-s3-browser-and-cyberduck.md)
