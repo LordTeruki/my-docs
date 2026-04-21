@@ -2,7 +2,9 @@
 
 
 
-\*\*Cannot SSH to VM\*\*
+\## Cannot SSH to VM
+
+
 
 \- Confirm you are using the \*\*public IPv6 address\*\*
 
@@ -12,7 +14,9 @@
 
 
 
-\*\*No Internet Inside Private Networks\*\*
+\## No Internet Inside Private Networks
+
+
 
 \- Create a router and set gateway to external net
 
@@ -20,7 +24,9 @@
 
 
 
-\*\*Private IPv4 not working between VMs\*\*
+\## Private IPv4 not working between VMs
+
+
 
 \- Verify both VMs are attached to the same private network/subnet
 
