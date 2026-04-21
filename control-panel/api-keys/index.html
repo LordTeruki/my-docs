@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#api-keys-credentials" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -798,6 +803,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Keys & Credentials
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -815,6 +840,75 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#two-types-of-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two Types of Credentials
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Two Types of Credentials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-s3-credentials-object-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. S3 Credentials (Object Storage)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ssh-keys-for-virtual-machines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. SSH Keys (for Virtual Machines)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2145,66 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#two-types-of-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two Types of Credentials
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Two Types of Credentials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-s3-credentials-object-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. S3 Credentials (Object Storage)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ssh-keys-for-virtual-machines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. SSH Keys (for Virtual Machines)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,39 +2221,42 @@
 
 
 
-  <h1>API Keys & Credentials</h1>
-
-<p># API Keys \&amp; Credentials</p>
+<h1 id="api-keys-credentials">API Keys &amp; Credentials<a class="headerlink" href="#api-keys-credentials" title="Permanent link">&para;</a></h1>
 <p>This section is critical for using the platform.</p>
-<p>## Two Types of Credentials</p>
-<p>### 1. S3 Credentials (Object Storage)</p>
-<p>**Path:** Access → S3 Credentials</p>
-<p>**How to create:**</p>
-<p>1. Go to **Access → S3 Credentials**</p>
-<p>2. Click **Create Credentials**</p>
-<p>3. Give it a description (e.g. "My Backup Tool")</p>
-<p>4. Click **Create**</p>
-<p>5. **Immediately copy and save** the **Access Key** and **Secret Key** securely</p>
+<h2 id="two-types-of-credentials">Two Types of Credentials<a class="headerlink" href="#two-types-of-credentials" title="Permanent link">&para;</a></h2>
+<h3 id="1-s3-credentials-object-storage">1. S3 Credentials (Object Storage)<a class="headerlink" href="#1-s3-credentials-object-storage" title="Permanent link">&para;</a></h3>
+<p><strong>Path:</strong> Access → S3 Credentials</p>
+<p><strong>How to create:</strong></p>
+<ol>
+<li>Go to <strong>Access → S3 Credentials</strong></li>
+<li>Click <strong>Create Credentials</strong></li>
+<li>Give it a description (e.g. "My Backup Tool")</li>
+<li>Click <strong>Create</strong></li>
+<li><strong>Immediately copy and save</strong> the <strong>Access Key</strong> and <strong>Secret Key</strong> securely</li>
+</ol>
 <blockquote>
 <p>These are used with the S3 endpoint <code>https://s3.computus.io:8080</code></p>
 </blockquote>
-<p>### 2. SSH Keys (for Virtual Machines)</p>
-<p>**Path:** Access → SSH Keys</p>
-<p>**How to create:**</p>
-<p>1. Go to **Access → SSH Keys**</p>
-<p>2. Click **Create SSH Key**</p>
-<p>3. Give it a name</p>
-<p>4. Paste your **public key** (e.g. content of <code>id\_ed25519.pub</code> or <code>id\_rsa.pub</code>)</p>
-<p>5. Click **Save**</p>
+<h3 id="2-ssh-keys-for-virtual-machines">2. SSH Keys (for Virtual Machines)<a class="headerlink" href="#2-ssh-keys-for-virtual-machines" title="Permanent link">&para;</a></h3>
+<p><strong>Path:</strong> Access → SSH Keys</p>
+<p><strong>How to create:</strong></p>
+<ol>
+<li>Go to <strong>Access → SSH Keys</strong></li>
+<li>Click <strong>Create SSH Key</strong></li>
+<li>Give it a name</li>
+<li>Paste your <strong>public key</strong> (e.g. content of <code>id_ed25519.pub</code> or <code>id_rsa.pub</code>)</li>
+<li>Click <strong>Save</strong></li>
+</ol>
 <p>You must upload at least one SSH key before launching any VM.</p>
-<p>## Best Practices</p>
-<p>- Never share your Secret Key</p>
-<p>- Create separate credentials for different tools or applications</p>
-<p>- Rotate credentials periodically</p>
-<p>- Delete unused credentials</p>
-<p>---</p>
-<p>**All Control Panel pages updated.**</p>
-<p>Would you like me to also revise the **Getting Started** section to remove any remaining OSIE mentions for consistency? Or should we move straight to the **Object Storage (S3)** section now?</p>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Never share your Secret Key</li>
+<li>Create separate credentials for different tools or applications</li>
+<li>Rotate credentials periodically</li>
+<li>Delete unused credentials</li>
+</ul>
+<hr />
+<p><strong>Next:</strong> <a href="../dashboard-overview/">Dashboard Overview</a></p>
 
 
 

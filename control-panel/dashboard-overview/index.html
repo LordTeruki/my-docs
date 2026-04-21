@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#dashboard-overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -714,6 +719,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard Overview
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -731,6 +756,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Sections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-dashboard-widgets-beta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Dashboard Widgets (Beta)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2117,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Sections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-dashboard-widgets-beta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Dashboard Widgets (Beta)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,29 +2165,61 @@
 
 
 
-  <h1>Dashboard Overview</h1>
-
-<p># Dashboard Overview</p>
+<h1 id="dashboard-overview">Dashboard Overview<a class="headerlink" href="#dashboard-overview" title="Permanent link">&para;</a></h1>
 <p>The Computus Cloud dashboard is your central hub for managing all resources in the beta.</p>
-<p>## Main Sections</p>
-<p>| Menu Item              | Description |</p>
-<p>|------------------------|-----------|</p>
-<p>| **Dashboard**          | Overview of your usage, active VMs, storage quota, and quick actions |</p>
-<p>| **Compute**            | Manage virtual machines (Instances) |</p>
-<p>| **Networking**         | Create and manage networks, subnets, routers, and security groups |</p>
-<p>| **Object Storage**     | S3 credentials and storage overview |</p>
-<p>| **Access**             | SSH Keys and S3 Credentials |</p>
-<p>| **Billing**            | Usage, invoices, payments, and credits |</p>
-<p>| **Projects**           | Project and tenant management |</p>
-<p>| **Support**            | Submit feedback and support requests |</p>
-<p>## Key Dashboard Widgets (Beta)</p>
-<p>- Current VM count (out of 2 allowed)</p>
-<p>- S3 storage usage (out of 200 GB)</p>
-<p>- Active instances and their IPv6 addresses</p>
-<p>- Recent billing summary</p>
-<p>**Tip:** Bookmark https://beta.computus.io for quick access.</p>
-<p>---</p>
-<p>**Next:** [Projects and Tenants](projects-and-tenants.md)</p>
+<h2 id="main-sections">Main Sections<a class="headerlink" href="#main-sections" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Menu Item</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dashboard</strong></td>
+<td>Overview of your usage, active VMs, storage quota, and quick actions</td>
+</tr>
+<tr>
+<td><strong>Compute</strong></td>
+<td>Manage virtual machines (Instances)</td>
+</tr>
+<tr>
+<td><strong>Networking</strong></td>
+<td>Create and manage networks, subnets, routers, and security groups</td>
+</tr>
+<tr>
+<td><strong>Object Storage</strong></td>
+<td>S3 credentials and storage overview</td>
+</tr>
+<tr>
+<td><strong>Access</strong></td>
+<td>SSH Keys and S3 Credentials</td>
+</tr>
+<tr>
+<td><strong>Billing</strong></td>
+<td>Usage, invoices, payments, and credits</td>
+</tr>
+<tr>
+<td><strong>Projects</strong></td>
+<td>Project and tenant management</td>
+</tr>
+<tr>
+<td><strong>Support</strong></td>
+<td>Submit feedback and support requests</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-dashboard-widgets-beta">Key Dashboard Widgets (Beta)<a class="headerlink" href="#key-dashboard-widgets-beta" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Current VM count (out of 2 allowed)</li>
+<li>S3 storage usage (out of 200 GB)</li>
+<li>Active instances and their IPv6 addresses</li>
+<li>Recent billing summary</li>
+</ul>
+<p><strong>Tip:</strong> Bookmark https://beta.computus.io for quick access.</p>
+<hr />
+<p><strong>Next:</strong> <a href="../projects-and-tenants/">Projects and Tenants</a></p>
 
 
 
