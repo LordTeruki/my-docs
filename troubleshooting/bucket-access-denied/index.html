@@ -2097,7 +2097,18 @@
 
   <h1>Bucket Access Denied</h1>
 
-
+<p>---</p>
+<p>### 4. <code>troubleshooting/bucket-access-denied.md</code></p>
+<p>```markdown</p>
+<p># Bucket Access Denied</p>
+<p>## Possible Causes \&amp; Fixes</p>
+<p>- Using the wrong Access Key / Secret Key</p>
+<p>- Trying to access a bucket that doesn't exist</p>
+<p>- Bucket name contains uppercase letters or invalid characters</p>
+<p>- Using the wrong endpoint (<code>:8080</code> is required)</p>
+<p>**Quick Test:**</p>
+<p>```bash</p>
+<p>aws s3 ls --endpoint-url https://s3.computus.io:8080</p>
 
 
 

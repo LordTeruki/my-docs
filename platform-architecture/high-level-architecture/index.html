@@ -2095,7 +2095,26 @@
 
   <h1>High-Level Architecture</h1>
 
-
+<p># High-Level Architecture</p>
+<p>Computus Cloud Beta is built on a modern OpenStack-based infrastructure designed for reliability and ease of use.</p>
+<p>## Architecture Overview</p>
+<p>```text</p>
+<p>[ Your Browser ]</p>
+<p>&#x20;      |</p>
+<p>&#x20;      v</p>
+<p>https://beta.computus.io</p>
+<p>&#x20;  (Computus Dashboard)</p>
+<p>&#x20;      |</p>
+<p>&#x20;      v</p>
+<p>&#x20;  OpenStack Services</p>
+<p>&#x20;  ├── Nova (Compute)</p>
+<p>&#x20;  ├── Neutron (Networking)</p>
+<p>&#x20;  ├── Glance (Images)</p>
+<p>&#x20;  ├── Keystone (Identity)</p>
+<p>&#x20;  └── Swift (Object Storage with S3 compatibility)</p>
+<p>&#x20;      |</p>
+<p>&#x20;      v</p>
+<p>&#x20;  s3.computus.io:8080</p>
 
 
 

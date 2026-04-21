@@ -2097,7 +2097,21 @@
 
   <h1>VM Build Failed</h1>
 
-
+<p># VM Build Failed</p>
+<p>## Common Reasons</p>
+<p>- No SSH key uploaded before launching the instance</p>
+<p>- Did not select **"external net"** as the network</p>
+<p>- Selected a flavor or image that is not available in beta</p>
+<p>- Reached the limit of 2 VMs</p>
+<p>## How to Fix</p>
+<p>1. Go to **Access → SSH Keys** and upload a public key</p>
+<p>2. Delete any failed instance</p>
+<p>3. Launch again, making sure to:</p>
+<p>&#x20;  - Choose Ubuntu/Debian/Rocky</p>
+<p>&#x20;  - Choose Tiny/Small/Medium flavor</p>
+<p>&#x20;  - Select **external net**</p>
+<p>&#x20;  - Select your SSH key</p>
+<p>Check the instance logs in the dashboard for more details.</p>
 
 
 

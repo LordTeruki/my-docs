@@ -77,10 +77,6 @@
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/networking/floating-ips/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/networking/networks-overview/</loc>
          <lastmod>2026-04-21</lastmod>
     </url>
@@ -94,10 +90,6 @@
     </url>
     <url>
          <loc>https://docs.computus.io/networking/security-groups/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/networking/subnets/</loc>
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
@@ -137,27 +129,11 @@
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/platform-architecture/dns-and-endpoints/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/platform-architecture/high-level-architecture/</loc>
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/platform-architecture/known-limitations/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/platform-architecture/openstack-services/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/platform-architecture/osie-integration/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/platform-architecture/swift-and-s3-compatibility/</loc>
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
@@ -173,10 +149,6 @@
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.computus.io/reference/port-and-service-map/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.computus.io/reference/support-contact/</loc>
          <lastmod>2026-04-21</lastmod>
     </url>
@@ -186,18 +158,6 @@
     </url>
     <url>
          <loc>https://docs.computus.io/troubleshooting/cannot-log-in-to-cloud-computus-io/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/troubleshooting/dashboard-and-api-mismatch/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/troubleshooting/email-verification-not-arriving/</loc>
-         <lastmod>2026-04-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.computus.io/troubleshooting/floating-ip-not-working/</loc>
          <lastmod>2026-04-21</lastmod>
     </url>
     <url>
