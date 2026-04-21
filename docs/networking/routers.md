@@ -17,3 +17,5 @@ Routers allow traffic between networks or to the external network.
 
 **Note:** During beta, IPv6 is the primary public connectivity method.
 
+**Next:** [Security Groups](security-groups.md)
+
