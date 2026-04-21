@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#creating-buckets" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -971,6 +976,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating Buckets
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -988,6 +1013,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-bucket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create a Bucket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Create a Bucket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-aws-cli-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using AWS CLI (Example)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2051,6 +2123,44 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-bucket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create a Bucket
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Create a Bucket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-aws-cli-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using AWS CLI (Example)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2067,15 +2177,15 @@
 
 
 
-  <h1>Creating Buckets</h1>
-
-<p># Creating Buckets</p>
-<p>## How to Create a Bucket</p>
+<h1 id="creating-buckets">Creating Buckets<a class="headerlink" href="#creating-buckets" title="Permanent link">&para;</a></h1>
+<h2 id="how-to-create-a-bucket">How to Create a Bucket<a class="headerlink" href="#how-to-create-a-bucket" title="Permanent link">&para;</a></h2>
 <p>You can create buckets using any S3 client (recommended) or through the S3 API.</p>
-<p>### Using AWS CLI (Example)</p>
-<p>```bash</p>
-<p>aws s3 mb s3://my-first-bucket \</p>
-<p>&#x20; --endpoint-url https://s3.computus.io:8080</p>
+<h3 id="using-aws-cli-example">Using AWS CLI (Example)<a class="headerlink" href="#using-aws-cli-example" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>aws<span class="w"> </span>s3<span class="w"> </span>mb<span class="w"> </span>s3://my-first-bucket<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--endpoint-url<span class="w"> </span>https://s3.computus.io:8080
+</code></pre></div>
+<hr />
+<p><strong>Next:</strong> <a href="../using-aws-cli/">Using AWS CLI with S3</a></p>
 
 
 

@@ -1068,6 +1068,56 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#example-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Commands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list-buckets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        List Buckets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-bucket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a Bucket
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upload a File
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2126,6 +2176,56 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#example-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Commands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list-buckets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        List Buckets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-bucket" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a Bucket
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upload a File
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2146,17 +2246,33 @@
 <h1 id="using-aws-cli-with-s3">Using AWS CLI with S3<a class="headerlink" href="#using-aws-cli-with-s3" title="Permanent link">&para;</a></h1>
 <h2 id="configure-aws-cli">Configure AWS CLI<a class="headerlink" href="#configure-aws-cli" title="Permanent link">&para;</a></h2>
 <p>Run this command and fill in the details:</p>
-<p>```bash
-aws configure --profile computus</p>
-<p>aws --profile computus \
-  --endpoint-url https://s3.computus.io:8080 \
-  s3 ls</p>
-<p>aws --profile computus \
-  --endpoint-url https://s3.computus.io:8080 \
-  s3 mb s3://my-first-bucket</p>
-<p>aws --profile computus \
-  --endpoint-url https://s3.computus.io:8080 \
-  s3 cp file.txt s3://my-first-bucket/</p>
+<div class="highlight"><pre><span></span><code>aws<span class="w"> </span>configure<span class="w"> </span>--profile<span class="w"> </span>computus
+</code></pre></div>
+<p>Example values:</p>
+<ul>
+<li>Access Key ID: your key</li>
+<li>Secret Access Key: your key</li>
+<li>Default region: us-east-1</li>
+<li>Default output format: json</li>
+</ul>
+<h2 id="example-commands">Example Commands<a class="headerlink" href="#example-commands" title="Permanent link">&para;</a></h2>
+<h3 id="list-buckets">List Buckets<a class="headerlink" href="#list-buckets" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>aws<span class="w"> </span>--profile<span class="w"> </span>computus<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--endpoint-url<span class="w"> </span>https://s3.computus.io:8080<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>s3<span class="w"> </span>ls
+</code></pre></div>
+<h3 id="create-a-bucket">Create a Bucket<a class="headerlink" href="#create-a-bucket" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>aws<span class="w"> </span>--profile<span class="w"> </span>computus<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--endpoint-url<span class="w"> </span>https://s3.computus.io:8080<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>s3<span class="w"> </span>mb<span class="w"> </span>s3://my-first-bucket
+</code></pre></div>
+<h3 id="upload-a-file">Upload a File<a class="headerlink" href="#upload-a-file" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>aws<span class="w"> </span>--profile<span class="w"> </span>computus<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--endpoint-url<span class="w"> </span>https://s3.computus.io:8080<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>s3<span class="w"> </span>cp<span class="w"> </span>file.txt<span class="w"> </span>s3://my-first-bucket/
+</code></pre></div>
+<hr />
+<p><strong>Next:</strong> <a href="../using-s3-browser-and-cyberduck/">Using S3 Browser and Cyberduck</a></p>
 
 
 
