@@ -65,7 +65,6 @@ nav:
       - Platform Overview: getting-started/platform-overview.md
       - Beta Limitations & Rules: getting-started/beta-limitations.md
       - Account Signup (Beta): getting-started/account-signup.md
-      - First Login to beta.computus.io: getting-started/first-login.md
 
   - Control Panel:
       - Accessing the Portal: control-panel/accessing-the-portal.md
@@ -114,4 +113,4 @@ nav:
 
   - Platform Architecture:
       - High-Level Architecture: platform-architecture/high-level-architecture.md
-      - OpenStack Integration: platform-architecture/openstack-integration.md
+      - OpenStack Services: platform-architecture/openstack-services.md
