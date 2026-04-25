@@ -13,14 +13,16 @@ Follow these steps to launch your first virtual machine.
 Name: give your VM a meaningful name
 
 Image:
-- Ubuntu
-- Debian
-- Rocky Linux
+
+* Ubuntu
+* Debian
+* Rocky Linux
 
 Flavor:
-- Tiny
-- Small
-- Medium
+
+* Tiny
+* Small
+* Medium
 
 SSH Key: select your uploaded key (required)
 
@@ -34,4 +36,5 @@ After a few minutes, your VM will become Active with a public IPv6 address.
 
 ## How to Connect
 
-ssh -i ~/.ssh/your_private_key user@your-ipv6-address
+ssh -i \~/.ssh/your\_private\_key ubuntu@your-ipv6-address
+
